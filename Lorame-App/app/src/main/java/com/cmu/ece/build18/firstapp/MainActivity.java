@@ -12,6 +12,7 @@ import android.content.Context;
 import android.widget.Toast;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.widget.CompoundButton;
 
 import com.google.android.gms.analytics.Logger;
 
@@ -48,6 +49,7 @@ import com.hoho.android.usbserial.driver.UsbSerialPort;
 
 
 import android.hardware.usb.UsbDeviceConnection;
+import android.widget.ToggleButton;
 
 import java.nio.charset.Charset;
 import java.util.List;
@@ -62,12 +64,33 @@ public class MainActivity extends AppCompatActivity implements
     private GoogleApiClient mGoogleApiClient;
     private double currLatitude, currLongitude;
     private TextView textView;
+    private UsbSerialDriver activeUsbDriver;
+    private UsbDeviceConnection activeUsbDeviceConnection;
+    private UsbSerialPort activeUsbDevicePort;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         textView = (TextView) findViewById(R.id.textView);
+
+        ToggleButton connectBtn = (ToggleButton) findViewById(R.id.usb_switch);
+
+        connectBtn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    // The toggle is enabled
+                    if(!initializeUsbDeviceConnection()) {
+                        buttonView.setChecked(false);
+                    }
+
+                } else {
+                    powerOffUsbConnection();
+                    Log.e("TAG", "Connection disabled");
+                }
+            }
+        });
 
         //initialize google play services interface
 
@@ -144,6 +167,7 @@ public class MainActivity extends AppCompatActivity implements
         showToast("Got all permissions!");
     }
 
+
     private void getAndDisplayLocation() {
 
         if(ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) !=
@@ -179,7 +203,7 @@ public class MainActivity extends AppCompatActivity implements
         toast.show();
     }
 
-    public Pair<UsbSerialDriver, UsbDeviceConnection> initializeUsbDeviceConnection() {
+    public boolean initializeUsbDeviceConnection() {
         UsbManager manager = (UsbManager) getSystemService(Context.USB_SERVICE);
 
         UsbSerialProber dflProber = UsbSerialProber.getDefaultProber();
@@ -191,7 +215,7 @@ public class MainActivity extends AppCompatActivity implements
         } else if (availableDrivers.isEmpty()) {
             Log.e("DRIVER", "Available drivers list is empty...");
             showToast("Available driver list is empty..");
-            return null;
+            return false;
         }
 
         for(UsbSerialDriver availableDriver : availableDrivers) {
@@ -206,44 +230,91 @@ public class MainActivity extends AppCompatActivity implements
         if (connection == null) {
             // You probably need to call UsbManager.requestPermission(driver.getDevice(), ..)
             showToast("UsbDeviceConnection was null.");
-            return null;
+            return false;
         }
 
-        return new Pair<UsbSerialDriver, UsbDeviceConnection>(driver, connection);
+        this.activeUsbDriver = driver;
+        this.activeUsbDeviceConnection = connection;
+        this.activeUsbDevicePort = activeUsbDriver.getPorts().get(0);
+
+        try {
+            this.activeUsbDevicePort.open(this.activeUsbDeviceConnection);
+            this.activeUsbDevicePort.setParameters(115200, 8,
+                    UsbSerialPort.STOPBITS_1, UsbSerialPort.PARITY_NONE);
+
+        } catch(IOException e) {
+            showToast("Exception opening port: " + e.getMessage());
+        }
+        //showToast("Connection established with driver.");
+        return true;
+    }
+
+    public boolean powerOffUsbConnection() {
+        try {
+            this.activeUsbDevicePort.close();
+        } catch (IOException e) {
+            showToast("Error closing port: " + e.getMessage());
+            Log.e("ERROR", "Got IOException on port.close(): " + e.getMessage());
+            return false;
+        }
+
+        return true;
     }
 
     public void sendUartMessage(View view) {
 
-        Pair<UsbSerialDriver, UsbDeviceConnection> driverConnPair =
-                initializeUsbDeviceConnection();
+        if(this.activeUsbDriver == null || this.activeUsbDeviceConnection == null) {
+            if(!initializeUsbDeviceConnection()) {
+                showToast("Driver or connection is null. Aborting.");
+                return;
+            }
+        }
 
-        UsbSerialDriver driver = driverConnPair.first;
-        UsbDeviceConnection connection = driverConnPair.second;
+        if(this.activeUsbDriver == null || this.activeUsbDeviceConnection == null) {
+            showToast("Driver or connection is null. Aborting.");
+            return;
+        }
 
-        // Read some data! Most have just one port (port 0).
-        UsbSerialPort port = driver.getPorts().get(0);
         try {
-            port.open(connection);
-            port.setParameters(115200, 8, UsbSerialPort.STOPBITS_1, UsbSerialPort.PARITY_NONE);
 
-            byte []sendBuf = "Hello".getBytes(Charset.forName("UTF-8"));
-            port.write(sendBuf, 1000);
-            textView.append("\n Sent buf " + "Hello");
+            byte []sendBuf = "recvc".getBytes(Charset.forName("UTF-8"));
+
+            this.activeUsbDevicePort.write(sendBuf, 1000);
+            textView.append("\n Sent:" + "recvc");
+
+        } catch (IOException e) {
+            // Deal with error.
+            showToast("Error in port operation: " + e.getMessage());
+        }
+    }
 
 
-            byte buffer[] = new byte[16];
-            int numBytesRead = port.read(buffer, 1000);
+    public void receiveUartMessage(View view) {
 
-            textView.append("\n Recv buf: " + new String(buffer, "UTF-8"));
+        if(this.activeUsbDriver == null || this.activeUsbDeviceConnection == null) {
+            if(!initializeUsbDeviceConnection()) {
+                showToast("Driver or connection is null. Aborting.");
+                return;
+            }
+        }
+
+        if(this.activeUsbDriver == null || this.activeUsbDeviceConnection == null) {
+            showToast("Driver or connection is null. Aborting.");
+            return;
+        }
+
+        try {
+
+            byte buffer[] = new byte[1000];
+
+            //read with timeout = 1000ms
+            int numBytesRead = this.activeUsbDevicePort.read(buffer, 1000);
+
+            textView.append("\n Received: " + new String(buffer, "UTF-8"));
             Log.d("LOG", "Read " + numBytesRead + " bytes.");
         } catch (IOException e) {
             // Deal with error.
-        } finally {
-            try {
-                port.close();
-            } catch (IOException e) {
-                Log.e("ERROR", "Got IOException on port.close(): " + e.getMessage());
-            }
+            showToast("Error in port operation: " + e.getMessage());
         }
     }
 
