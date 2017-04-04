@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="df0e4f251c3d2a37e1ca050cf2243c2bb6580b99">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_352a99843904945f1ec1ff1d086a97ace1bc23ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="04abe73c201ef8a473af2a082b8ff15b4b33a858">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_418d4b0b0d7640f3e596e8ac116f463ed6708d1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample/app/libs/d2xx.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="549d88cce99830dc2ae951a13d5a8b897362351b">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample/app/build/intermediates/transforms/dex/debug/folders/1000/2/d2xx_9fffb11941ba598987bd8dae11c33e31940772a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ameya/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_1bb7132ae19e252b391ee20a1982d1f058627fb7/classes.dex" />
+    </item>
+
+</items>
