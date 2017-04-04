@@ -6,6 +6,7 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Pair;
 import android.view.View;
 import android.content.Context;
 import android.widget.Toast;
@@ -177,10 +178,8 @@ public class MainActivity extends AppCompatActivity implements
         Toast toast = Toast.makeText(context, msg, duration);
         toast.show();
     }
-    
 
-    public void sendUartMessage(View view) {
-
+    public Pair<UsbSerialDriver, UsbDeviceConnection> initializeUsbDeviceConnection() {
         UsbManager manager = (UsbManager) getSystemService(Context.USB_SERVICE);
 
         UsbSerialProber dflProber = UsbSerialProber.getDefaultProber();
@@ -192,7 +191,7 @@ public class MainActivity extends AppCompatActivity implements
         } else if (availableDrivers.isEmpty()) {
             Log.e("DRIVER", "Available drivers list is empty...");
             showToast("Available driver list is empty..");
-            return;
+            return null;
         }
 
         for(UsbSerialDriver availableDriver : availableDrivers) {
@@ -207,8 +206,19 @@ public class MainActivity extends AppCompatActivity implements
         if (connection == null) {
             // You probably need to call UsbManager.requestPermission(driver.getDevice(), ..)
             showToast("UsbDeviceConnection was null.");
-            return;
+            return null;
         }
+
+        return new Pair<UsbSerialDriver, UsbDeviceConnection>(driver, connection);
+    }
+
+    public void sendUartMessage(View view) {
+
+        Pair<UsbSerialDriver, UsbDeviceConnection> driverConnPair =
+                initializeUsbDeviceConnection();
+
+        UsbSerialDriver driver = driverConnPair.first;
+        UsbDeviceConnection connection = driverConnPair.second;
 
         // Read some data! Most have just one port (port 0).
         UsbSerialPort port = driver.getPorts().get(0);
