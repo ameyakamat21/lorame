@@ -1,0 +1,7 @@
+#Tue Apr 04 02:06:02 EDT 2017
+base.0=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_6a6ef2b256ccada6428a08181428810762f839d6
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\d2xx_48f3b2a415be6900558cfe940199a3d6ec75fdd0\\classes.dex
+base.1=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\d2xx_48f3b2a415be6900558cfe940199a3d6ec75fdd0
+file.0=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_6a6ef2b256ccada6428a08181428810762f839d6\\classes.dex

@@ -1,0 +1,211 @@
+[
+    {
+        "outputFile": "C:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "C:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 52,
+                    "endOffset": 217
+                },
+                "from": {
+                    "file": "C:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 222,
+                    "endColumn": 43,
+                    "endOffset": 261
+                },
+                "from": {
+                    "file": "C:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 43,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 266,
+                    "endLine": 8,
+                    "endColumn": 12,
+                    "endOffset": 344
+                },
+                "from": {
+                    "file": "C:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 349,
+                    "endLine": 11,
+                    "endColumn": 12,
+                    "endOffset": 416
+                },
+                "from": {
+                    "file": "C:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\aruln\\AndroidStudioProjects\\lorame\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Users\\aruln\\AndroidStudioProjects\\lorame\\Android-FTDI-UART-Sample-master\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 89,
+                        "endColumn": 57,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "C:\\Users\\aruln\\AndroidStudioProjects\\lorame\\Android-FTDI-UART-Sample-master\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 55,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 52,
+                    "endOffset": 217
+                },
+                "from": {
+                    "file": "C:\\Users\\aruln\\AndroidStudioProjects\\lorame\\Android-FTDI-UART-Sample-master\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endColumn": 52,
+                        "endOffset": 148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 222,
+                    "endColumn": 43,
+                    "endOffset": 261
+                },
+                "from": {
+                    "file": "C:\\Users\\aruln\\AndroidStudioProjects\\lorame\\Android-FTDI-UART-Sample-master\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 43,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 266,
+                    "endLine": 12,
+                    "endColumn": 12,
+                    "endOffset": 552
+                },
+                "from": {
+                    "file": "C:\\Users\\aruln\\AndroidStudioProjects\\lorame\\Android-FTDI-UART-Sample-master\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 557,
+                    "endLine": 15,
+                    "endColumn": 12,
+                    "endOffset": 712
+                },
+                "from": {
+                    "file": "C:\\Users\\aruln\\AndroidStudioProjects\\lorame\\Android-FTDI-UART-Sample-master\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 665
+                    }
+                }
+            }
+        ]
+    }
+]
