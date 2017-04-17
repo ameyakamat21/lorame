@@ -1,0 +1,7 @@
+#Tue Apr 04 02:15:48 EDT 2017
+base.0=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ad162083c2a3e43c237b9284e5771816964ccad3
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_17bbef519231d6a52f506adcd3f68e18b050d46f\\classes.dex
+base.1=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_17bbef519231d6a52f506adcd3f68e18b050d46f
+file.0=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ad162083c2a3e43c237b9284e5771816964ccad3\\classes.dex

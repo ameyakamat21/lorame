@@ -1,0 +1,30 @@
+#Internal package file, do not edit.
+#Tue Apr 04 02:15:48 EDT 2017
+2.base=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\res\\resources-debug.ap_
+5.file=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\xml\\device_filter.xml
+5.set=ANDROID_RESOURCE
+3.base=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ad162083c2a3e43c237b9284e5771816964ccad3
+6.file=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\activity_main.xml
+2.set=ANDROID_RESOURCE
+4.base=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_17bbef519231d6a52f506adcd3f68e18b050d46f
+7.file=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+7.set=ANDROID_RESOURCE
+count=9
+0.file=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_launcher.png
+5.base=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\res\\resources-debug.ap_
+8.file=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+4.set=DEX
+6.base=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\res\\resources-debug.ap_
+1.file=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\main.xml
+1.set=ANDROID_RESOURCE
+7.base=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\res\\resources-debug.ap_
+2.file=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_main.xml
+6.set=ANDROID_RESOURCE
+0.base=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\res\\resources-debug.ap_
+8.base=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.file=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ad162083c2a3e43c237b9284e5771816964ccad3\\classes.dex
+3.set=DEX
+1.base=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=C\:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_17bbef519231d6a52f506adcd3f68e18b050d46f\\classes.dex
+8.set=ANDROID_RESOURCE
+0.set=ANDROID_RESOURCE

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\aruln\AndroidStudioProjects\Android-FTDI-UART-Sample-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\aruln\AndroidStudioProjects\Android-FTDI-UART-Sample-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_17bbef519231d6a52f506adcd3f68e18b050d46f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aruln\AndroidStudioProjects\Android-FTDI-UART-Sample-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="82c2500a78bb63d5327899aea065d83dbacfad7f">
+        <dex dex="C:\Users\aruln\AndroidStudioProjects\Android-FTDI-UART-Sample-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ad162083c2a3e43c237b9284e5771816964ccad3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aruln\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\aruln\AndroidStudioProjects\Android-FTDI-UART-Sample-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_6a6ef2b256ccada6428a08181428810762f839d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\aruln\AndroidStudioProjects\Android-FTDI-UART-Sample-master\app\libs\d2xx.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="549d88cce99830dc2ae951a13d5a8b897362351b">
+        <dex dex="C:\Users\aruln\AndroidStudioProjects\Android-FTDI-UART-Sample-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\d2xx_48f3b2a415be6900558cfe940199a3d6ec75fdd0\classes.dex" />
+    </item>
+
+</items>
