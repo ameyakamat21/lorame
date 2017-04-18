@@ -2,40 +2,373 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\aruln\AndroidStudioProjects\Android-FTDI-UART-Sample-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/4e1821212f7c3f5978d75479c0e5a442c6a0ec1f/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="C:\Users\aruln\AndroidStudioProjects\Android-FTDI-UART-Sample-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_17bbef519231d6a52f506adcd3f68e18b050d46f\classes.dex" />
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_d13a9215fd2a518721eb8570fba4bc1fb6ce0d90.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\aruln\AndroidStudioProjects\Android-FTDI-UART-Sample-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/894c01d421d452abe73a04863281bfcde721aa60/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="82c2500a78bb63d5327899aea065d83dbacfad7f">
-        <dex dex="C:\Users\aruln\AndroidStudioProjects\Android-FTDI-UART-Sample-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ad162083c2a3e43c237b9284e5771816964ccad3\classes.dex" />
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_7efd1cc3d5eabb0e3fffaa1e153a3527c8c43029.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\aruln\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/fbb7657287d4b35e58ff5c5be8253ba9d44e3fc9/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="C:\Users\aruln\AndroidStudioProjects\Android-FTDI-UART-Sample-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_6a6ef2b256ccada6428a08181428810762f839d6\classes.dex" />
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_893ccd58d2de7d57e9c4c30620ddd2354cf08fee.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\aruln\AndroidStudioProjects\Android-FTDI-UART-Sample-master\app\libs\d2xx.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/69518e4cccd5eaa7899e0c844e6012d5e752a2b3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_da181fdc2d7c064fdff8970c4a78747d00dbc4f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/44f3e1eee80868ce06fc1d11c917126f3ae807ca/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_bff6e3bc32eb29d77daaabad31a95059b687abcd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_4ed959dd4e8828e9384fe08467e55a5acba2f390.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/cf2a72343930b0234940da9e7a52cbed8601cbd3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_79ae1ad83f01d7a879951dbba7c17f09bd818bb0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/libs/d2xx.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="549d88cce99830dc2ae951a13d5a8b897362351b">
-        <dex dex="C:\Users\aruln\AndroidStudioProjects\Android-FTDI-UART-Sample-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\d2xx_48f3b2a415be6900558cfe940199a3d6ec75fdd0\classes.dex" />
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/d2xx_160ba088b9e58fcfc00e382251b3f6ae477972f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/dda11dae5d92448e8e0a84069d0fb6b2432f0f8e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_f02f66e962b606c6c39b4e1892d62f5a8034ee31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_a68ec170a5b4d8153740381d6cfca7200e817fd5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/894c01d421d452abe73a04863281bfcde721aa60/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_942e185910d247938582b305ab0b8814d14569fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/dbdf7f2a54bcdeb84e35f31826a79ad545e7a015/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_2f1bb5a4af397cd4561a1055afea512353140258.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/0d757bbcb341f5466c8419aa227173d1f8e05245/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_24dcf64685d606e9dfa75a76d81299a82c55876b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_73606cfc1d6750e1f64bb01f4feffda51e079bc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/2108f4183bce21ce09de66e8a6342c210bbcd448/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_aa671ec798e10e47f101b01ca94f6fe8327792b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/fbb7657287d4b35e58ff5c5be8253ba9d44e3fc9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_59220e4d23c6cb17508eba1d4ec3794fc924ab78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/2ec75cf75dcbe2d50fa2df6cb0843f885b7c10e1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_387a2f56219a2f9ddf4c853884a45fd881b2aa9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/339f87ef9cc654cc573a665ef00c4b1154a00e07/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_a62eed5b57f2c4bcbe0537be1999ec01cc19d946.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/081e6d3a3f72dd40701d5a43976fe8431082f5b2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_d2eff135331e67321b1e442b5f0fed0172468a40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_fee1e94e055bc8c9f96dbb3c1b92947cff5feedb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/5b758bf82cf9dfeb2e5517346062ba505780d54d/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_cbad8b84a58bfc49bfb0d3f26d045a8a0355c273.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/6134b483f45098b25deccb72205810f863ef9684/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_256b96fa2e07d4d1b99b28e84ff044045c69784b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/eb8ef9515e09f96c359a011a8fbcf98f6d908a67/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_d22f84d255ce1afed584fdf507a5d04c84d97933.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/5b22ba453cb5a4e13b6aa393c31e1e1d13104a00/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_3bc0ddb5282bf6c150cf7d688495a7d4cee86a6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/5b758bf82cf9dfeb2e5517346062ba505780d54d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_4414a40b9dff9d70e3dee4eb10ca4f07aa66c627.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/a602758c3ecfc5a1056b32a3c3b4455c7591664b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_87960a6d27b5682ac45690d149c3a958a02a8a8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_af108ac586bd00b2b550472b44d15acb6f2a11bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/5af236148c164f7845f6cfc9bc695828f62c5341/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_8724fe8cae5b51cc7f71d361f4ef88e268263c4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/e8b4a6c2c31d1c456fe9048028975ab5a279fe78/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_6278fb9eaa32d5d2cbe4d628a8b80d9e431617b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/081e6d3a3f72dd40701d5a43976fe8431082f5b2/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_cf70772cc4730da8d0aa0b03895a5a4ac877c2fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/784acfa0bb0cca133d527fe3e36778f73bdab1c2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_ffe2eec0c9a230afd0d5ea51037e4525a1d698f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/f8faaf50a4327a2b72c601beb3a1355784ddd545/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_bc198976ce3882a1c0c4ae96eb7405eb2768284d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/a3c63626f562359bbedf16a378a040172ea25199/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_2a644038e773fd9a9195371fdaa261f55aac9c8f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/f40fc16abd4b0821b1db1475ae894479829f9888/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_742682fb69dbd5c0dc9ed8f632fd575b9c83014c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/d289f2e10364b25236de9fa149938f85965c5a60/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_0c3a02cbc959404579e8d04aba77ec8ac62e75e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/3db213e229208d1c6e3be76a2cd30cde9e83a6f3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_0723f3f61b9e613173a5346ed8d4f5f0b7ea53e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/726c831c34f44f392de36928abd1583020acf774/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_1bb3601534ded168ae805adaa5ec69db79e3fbf6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/44f3e1eee80868ce06fc1d11c917126f3ae807ca/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_f90008f0427c6dd53a4167646d6531a794dfd60f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/59657dbc0fd111b2f8788ad41c198132c76c10bc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_c14abb23c168cd659775f562e2bff46f2e38c37a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/2afa1a69b5d8cfd2ac5442a45ec675f10d4fe467/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_630f177cb465129dec06eef4627f3ffa5ca74309.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ameya/.android/build-cache/d468589edc75d27ba05062a8d368c8721a51b8f8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/pre-dexed/debug/classes_b98f5ac6e8073e9d1b217aeb60f461cf2963b4a8.jar" />
     </item>
 
 </items>

@@ -43,7 +43,7 @@ import com.ftdi.j2xx.FT_Device;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.ksksue.app.fpga_fifo.R;
 
-public class MainActivity extends AppCompatActivity implements
+public class MainActivity extends Activity implements
         ConnectionCallbacks, OnConnectionFailedListener {
     private final static String TAG = "FPGA_FIFO Activity";
 
@@ -72,6 +72,13 @@ public class MainActivity extends AppCompatActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //initialize GoogleApiClient instance for location
+        mGoogleApiClient = new GoogleApiClient.Builder(this)
+                .addConnectionCallbacks(this)
+                .addOnConnectionFailedListener(this)
+                .addApi(LocationServices.API)
+                .addApi(AppIndex.API).build();
 
         tvRead = (TextView) findViewById(R.id.tvRead);
         etWrite = (EditText) findViewById(R.id.etWrite);
