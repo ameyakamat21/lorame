@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
+        "source": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/drawable/common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_light.xml",
+        "source": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/drawable/mr_ic_play_light.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_mono_light.xml",
+        "source": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/drawable/mr_ic_media_route_connecting_mono_light.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
+        "source": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/drawable/common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_dark.xml",
+        "source": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/drawable/mr_ic_play_dark.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_light.xml",
+        "source": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/drawable/mr_ic_cast_light.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/ameya/.android/build-cache/1d342309dfe46b4188e7d45bf79144af7d9cb833/output/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_connecting.xml",
+        "source": "/Users/ameya/.android/build-cache/5af236148c164f7845f6cfc9bc695828f62c5341/output/res/drawable/cast_ic_notification_connecting.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_mono_dark.xml",
+        "source": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/drawable/mr_ic_media_route_connecting_mono_dark.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_dark.xml",
+        "source": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/drawable/mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_dark.xml",
+        "source": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/drawable/mr_ic_cast_dark.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/ameya/.android/build-cache/1d342309dfe46b4188e7d45bf79144af7d9cb833/output/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_light.xml",
+        "source": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/drawable/mr_ic_pause_light.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/ameya/.android/build-cache/1d342309dfe46b4188e7d45bf79144af7d9cb833/output/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/ameya/.android/build-cache/1d342309dfe46b4188e7d45bf79144af7d9cb833/output/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/drawable/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/mr_ic_settings_light.xml",
+        "source": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/drawable/mr_ic_settings_light.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/ameya/.android/build-cache/1d342309dfe46b4188e7d45bf79144af7d9cb833/output/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/drawable/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/mr_ic_settings_dark.xml",
+        "source": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/drawable/mr_ic_settings_dark.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_light.xml",
+        "source": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/drawable/mr_ic_media_route_mono_light.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_dark.xml",
+        "source": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/drawable/mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_ic_clear_material.xml"
+    }
+]

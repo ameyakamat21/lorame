@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    }
+]

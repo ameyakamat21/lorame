@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 17
+    compileSdkVersion 24
     buildToolsVersion "25.0.2"
 
     defaultConfig {
         applicationId "com.ksksue.app.fpga_fifo"
-        minSdkVersion 13
-        targetSdkVersion 17
+        minSdkVersion 23
+        targetSdkVersion 24
     }
 
     buildTypes {
@@ -19,6 +19,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:18.0.0'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.google.android.gms:play-services:8.4.0'
     compile files('libs/d2xx.jar')
 }

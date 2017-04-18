@@ -7,25 +7,44 @@
  */
 package com.ksksue.app.ftdi_uart;
 
+
+import android.Manifest;
 import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.pm.PackageManager;
 import android.hardware.usb.UsbManager;
+import android.location.Location;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.support.v7.app.AppCompatActivity;
+import android.widget.Toast;
+
+import com.google.android.gms.appindexing.Action;
+import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.appindexing.Thing;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener;
+import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
 
 import com.ftdi.j2xx.D2xxManager;
 import com.ftdi.j2xx.FT_Device;
+import com.google.android.gms.common.api.GoogleApiClient;
 import com.ksksue.app.fpga_fifo.R;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity implements
+        ConnectionCallbacks, OnConnectionFailedListener {
     private final static String TAG = "FPGA_FIFO Activity";
 
     private static D2xxManager ftD2xx = null;
@@ -35,6 +54,8 @@ public class MainActivity extends Activity {
     byte[] rbuf  = new byte[READBUF_SIZE];
     char[] rchar = new char[READBUF_SIZE];
     int mReadSize=0;
+    private GoogleApiClient mGoogleApiClient;
+    private double currLatitude, currLongitude;
 
     TextView tvRead;
     EditText etWrite;
@@ -123,6 +144,93 @@ public class MainActivity extends Activity {
             byte[] writeByte = writeString.getBytes();
             ftDev.write(writeByte, writeString.length());
         }
+    }
+
+    @Override
+    protected void onStart() {
+        mGoogleApiClient.connect();
+        super.onStart();
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        AppIndex.AppIndexApi.start(mGoogleApiClient, getIndexApiAction());
+    }
+
+    @Override
+    protected void onStop() {
+        mGoogleApiClient.disconnect();
+        super.onStop();// ATTENTION: This was auto-generated to implement the App Indexing API.
+// See https://g.co/AppIndexing/AndroidStudio for more information.
+        AppIndex.AppIndexApi.end(mGoogleApiClient, getIndexApiAction());
+    }
+
+    @Override
+    public void onConnected(Bundle connectionHint) {
+
+        getAndDisplayLocation();
+    }
+
+    @Override
+    public void onConnectionFailed(ConnectionResult result) {
+        Log.e("LOCERR", "The connection has failed!: " + result);
+    }
+
+    @Override
+    public void onConnectionSuspended(int someInt) {
+        Log.e("LOCERR", "The connection was suspended.");
+    }
+
+    private void getAndDisplayLocation() {
+
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) !=
+                PackageManager.PERMISSION_GRANTED ||
+                ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) !=
+                        PackageManager.PERMISSION_GRANTED) {
+            Log.e("PERMISSION", "Does not have location permission!");
+
+            String[] permisionsToRequest = {Manifest.permission.ACCESS_COARSE_LOCATION,
+                    Manifest.permission.ACCESS_FINE_LOCATION};
+            requestPermissions(permisionsToRequest, 1);
+        }
+
+        Location mLastLocation = LocationServices.FusedLocationApi.getLastLocation(
+                mGoogleApiClient);
+
+        if (mLastLocation != null) {
+            currLatitude = mLastLocation.getLatitude();
+            currLongitude = mLastLocation.getLongitude();
+            showToast("Last loc: (" + currLatitude + ", " + currLongitude + ")");
+        } else {
+            showToast("Last location was null.");
+        }
+    }
+
+    public void getLocationBtnCallback(View view) {
+
+        getAndDisplayLocation();
+    }
+
+    private void showToast(String msg) {
+        Context context = getApplicationContext();
+        int duration = Toast.LENGTH_SHORT;
+
+        Toast toast = Toast.makeText(context, msg, duration);
+        toast.show();
+    }
+
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+    public Action getIndexApiAction() {
+        Thing object = new Thing.Builder()
+                .setName("Main Page") // TODO: Define a title for the content shown.
+                // TODO: Make sure this auto-generated URL is correct.
+                .setUrl(Uri.parse("http://[ENTER-YOUR-URL-HERE]"))
+                .build();
+        return new Action.Builder(Action.TYPE_VIEW)
+                .setObject(object)
+                .setActionStatus(Action.STATUS_TYPE_COMPLETED)
+                .build();
     }
 
     public void onClickClose(View v) {

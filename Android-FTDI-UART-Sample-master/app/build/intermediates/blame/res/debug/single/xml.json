@@ -1,10 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\device_filter.xml",
-        "source": "C:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\src\\main\\res\\xml\\device_filter.xml"
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/C:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\device_filter.xml",
+        "source": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/C:\\Users\\aruln\\AndroidStudioProjects\\Android-FTDI-UART-Sample-master\\app\\src\\main\\res\\xml\\device_filter.xml"
     },
     {
-        "merged": "C:\\Users\\aruln\\AndroidStudioProjects\\lorame\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\device_filter.xml",
-        "source": "C:\\Users\\aruln\\AndroidStudioProjects\\lorame\\Android-FTDI-UART-Sample-master\\app\\src\\main\\res\\xml\\device_filter.xml"
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/C:\\Users\\aruln\\AndroidStudioProjects\\lorame\\Android-FTDI-UART-Sample-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\device_filter.xml",
+        "source": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/C:\\Users\\aruln\\AndroidStudioProjects\\lorame\\Android-FTDI-UART-Sample-master\\app\\src\\main\\res\\xml\\device_filter.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/xml/device_filter.xml",
+        "source": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/src/main/res/xml/device_filter.xml"
     }
 ]
