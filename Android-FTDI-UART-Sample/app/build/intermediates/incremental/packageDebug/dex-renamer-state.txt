@@ -1,7 +1,0 @@
-#Tue Apr 04 01:30:25 EDT 2017
-base.0=/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_418d4b0b0d7640f3e596e8ac116f463ed6708d1c
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_352a99843904945f1ec1ff1d086a97ace1bc23ce/classes.dex
-base.1=/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_352a99843904945f1ec1ff1d086a97ace1bc23ce
-file.0=/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_418d4b0b0d7640f3e596e8ac116f463ed6708d1c/classes.dex
