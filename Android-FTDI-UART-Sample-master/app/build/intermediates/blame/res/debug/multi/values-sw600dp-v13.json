@@ -159,17 +159,36 @@
                     "startLine": 10,
                     "startColumn": 4,
                     "startOffset": 611,
-                    "endColumn": 72,
-                    "endOffset": 679
+                    "endColumn": 68,
+                    "endOffset": 675
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/values-sw600dp/values-sw600dp.xml",
+                    "file": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 282,
-                        "endColumn": 72,
-                        "endOffset": 350
+                        "startOffset": 55,
+                        "endColumn": 68,
+                        "endOffset": 119
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 680,
+                    "endColumn": 68,
+                    "endOffset": 744
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 124,
+                        "endColumn": 68,
+                        "endOffset": 188
                     }
                 }
             }

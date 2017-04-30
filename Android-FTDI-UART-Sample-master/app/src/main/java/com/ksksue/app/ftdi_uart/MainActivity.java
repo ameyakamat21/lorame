@@ -41,6 +41,7 @@ import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
 import com.ftdi.j2xx.D2xxManager;
 import com.ftdi.j2xx.FT_Device;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.ksksue.app.fpga_fifo.MapActivity;
 import com.ksksue.app.fpga_fifo.R;
 
 public class MainActivity extends Activity implements
@@ -473,5 +474,11 @@ public class MainActivity extends Activity implements
             }
         }
     };
+
+    public void openMapCallback(View view) {
+        Intent intent = new Intent(this, MapActivity.class);
+//        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
 
 }

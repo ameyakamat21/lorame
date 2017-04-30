@@ -368,17 +368,17 @@
                     "startLine": 21,
                     "startColumn": 4,
                     "startOffset": 2065,
-                    "endColumn": 271,
-                    "endOffset": 2332
+                    "endColumn": 73,
+                    "endOffset": 2134
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/6785ccb1c711041eea51919f2f7237b21b60b49c/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 3512,
-                        "endColumn": 275,
-                        "endOffset": 3783
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 237,
+                        "endColumn": 69,
+                        "endOffset": 306
                     }
                 }
             },
@@ -386,18 +386,18 @@
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 2337,
-                    "endColumn": 128,
-                    "endOffset": 2461
+                    "startOffset": 2139,
+                    "endColumn": 79,
+                    "endOffset": 2214
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 1327,
-                        "endColumn": 128,
-                        "endOffset": 1451
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 298,
+                        "endColumn": 75,
+                        "endOffset": 373
                     }
                 }
             },
@@ -405,18 +405,18 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 2466,
-                    "endColumn": 191,
-                    "endOffset": 2653
+                    "startOffset": 2219,
+                    "endColumn": 106,
+                    "endOffset": 2321
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 1131,
-                        "endColumn": 195,
-                        "endOffset": 1322
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 374,
+                        "endColumn": 102,
+                        "endOffset": 476
                     }
                 }
             },
@@ -424,18 +424,18 @@
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 2658,
-                    "endColumn": 126,
-                    "endOffset": 2780
+                    "startOffset": 2326,
+                    "endColumn": 93,
+                    "endOffset": 2415
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 1004,
-                        "endColumn": 126,
-                        "endOffset": 1126
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 477,
+                        "endColumn": 89,
+                        "endOffset": 566
                     }
                 }
             },
@@ -443,18 +443,18 @@
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2785,
-                    "endColumn": 129,
-                    "endOffset": 2910
+                    "startOffset": 2420,
+                    "endColumn": 124,
+                    "endOffset": 2540
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
                         "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 874,
-                        "endColumn": 129,
-                        "endOffset": 999
+                        "startColumn": 0,
+                        "startOffset": 567,
+                        "endColumn": 120,
+                        "endOffset": 687
                     }
                 }
             },
@@ -462,18 +462,18 @@
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 2915,
-                    "endColumn": 217,
-                    "endOffset": 3128
+                    "startOffset": 2545,
+                    "endColumn": 81,
+                    "endOffset": 2622
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 430,
-                        "endColumn": 221,
-                        "endOffset": 647
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 688,
+                        "endColumn": 77,
+                        "endOffset": 765
                     }
                 }
             },
@@ -481,18 +481,18 @@
                 "to": {
                     "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 3133,
-                    "endColumn": 217,
-                    "endOffset": 3346
+                    "startOffset": 2627,
+                    "endColumn": 186,
+                    "endOffset": 2809
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 652,
-                        "endColumn": 221,
-                        "endOffset": 869
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 766,
+                        "endColumn": 182,
+                        "endOffset": 948
                     }
                 }
             },
@@ -500,18 +500,18 @@
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 3351,
-                    "endColumn": 128,
-                    "endOffset": 3475
+                    "startOffset": 2814,
+                    "endColumn": 116,
+                    "endOffset": 2926
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 301,
-                        "endColumn": 128,
-                        "endOffset": 425
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 949,
+                        "endColumn": 112,
+                        "endOffset": 1061
                     }
                 }
             },
@@ -519,18 +519,18 @@
                 "to": {
                     "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 3480,
-                    "endColumn": 173,
-                    "endOffset": 3649
+                    "startOffset": 2931,
+                    "endColumn": 109,
+                    "endOffset": 3036
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 2735,
-                        "endColumn": 173,
-                        "endOffset": 2904
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1062,
+                        "endColumn": 105,
+                        "endOffset": 1167
                     }
                 }
             },
@@ -538,18 +538,18 @@
                 "to": {
                     "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 3654,
-                    "endColumn": 118,
-                    "endOffset": 3768
+                    "startOffset": 3041,
+                    "endColumn": 117,
+                    "endOffset": 3154
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 2616,
-                        "endColumn": 118,
-                        "endOffset": 2730
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1168,
+                        "endColumn": 113,
+                        "endOffset": 1281
                     }
                 }
             },
@@ -557,18 +557,18 @@
                 "to": {
                     "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 3773,
-                    "endColumn": 164,
-                    "endOffset": 3933
+                    "startOffset": 3159,
+                    "endColumn": 100,
+                    "endOffset": 3255
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 2451,
-                        "endColumn": 164,
-                        "endOffset": 2611
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1282,
+                        "endColumn": 96,
+                        "endOffset": 1378
                     }
                 }
             },
@@ -576,18 +576,18 @@
                 "to": {
                     "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 3938,
-                    "endColumn": 116,
-                    "endOffset": 4050
+                    "startOffset": 3260,
+                    "endColumn": 106,
+                    "endOffset": 3362
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 2334,
-                        "endColumn": 116,
-                        "endOffset": 2446
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1379,
+                        "endColumn": 102,
+                        "endOffset": 1481
                     }
                 }
             },
@@ -595,18 +595,18 @@
                 "to": {
                     "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 4055,
-                    "endColumn": 130,
-                    "endOffset": 4181
+                    "startOffset": 3367,
+                    "endColumn": 85,
+                    "endOffset": 3448
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 170,
-                        "endColumn": 130,
-                        "endOffset": 296
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1482,
+                        "endColumn": 81,
+                        "endOffset": 1563
                     }
                 }
             },
@@ -614,18 +614,18 @@
                 "to": {
                     "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 4186,
-                    "endColumn": 162,
-                    "endOffset": 4344
+                    "startOffset": 3453,
+                    "endColumn": 100,
+                    "endOffset": 3549
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 28,
-                        "startColumn": 4,
-                        "startOffset": 4217,
-                        "endColumn": 162,
-                        "endOffset": 4375
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 1564,
+                        "endColumn": 96,
+                        "endOffset": 1660
                     }
                 }
             },
@@ -633,18 +633,18 @@
                 "to": {
                     "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 4349,
-                    "endColumn": 125,
-                    "endOffset": 4470
+                    "startOffset": 3554,
+                    "endColumn": 100,
+                    "endOffset": 3650
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 27,
-                        "startColumn": 4,
-                        "startOffset": 4091,
-                        "endColumn": 125,
-                        "endOffset": 4212
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 1661,
+                        "endColumn": 96,
+                        "endOffset": 1757
                     }
                 }
             },
@@ -652,18 +652,18 @@
                 "to": {
                     "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 4475,
-                    "endColumn": 171,
-                    "endOffset": 4642
+                    "startOffset": 3655,
+                    "endColumn": 107,
+                    "endOffset": 3758
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 26,
-                        "startColumn": 4,
-                        "startOffset": 3919,
-                        "endColumn": 171,
-                        "endOffset": 4086
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 1758,
+                        "endColumn": 103,
+                        "endOffset": 1861
                     }
                 }
             },
@@ -671,18 +671,18 @@
                 "to": {
                     "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 4647,
-                    "endColumn": 130,
-                    "endOffset": 4773
+                    "startOffset": 3763,
+                    "endColumn": 75,
+                    "endOffset": 3834
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 25,
-                        "startColumn": 4,
-                        "startOffset": 3788,
-                        "endColumn": 130,
-                        "endOffset": 3914
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 1862,
+                        "endColumn": 71,
+                        "endOffset": 1933
                     }
                 }
             },
@@ -690,18 +690,18 @@
                 "to": {
                     "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 4778,
-                    "endColumn": 244,
-                    "endOffset": 5018
+                    "startOffset": 3839,
+                    "endColumn": 145,
+                    "endOffset": 3980
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/d468589edc75d27ba05062a8d368c8721a51b8f8/output/res/values-cs/common_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/956de8fb4aad814b95b2c6cda13a49ff448faa9f/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 170,
-                        "endColumn": 248,
-                        "endOffset": 414
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 288,
+                        "endColumn": 145,
+                        "endOffset": 433
                     }
                 }
             },
@@ -709,18 +709,18 @@
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 5023,
-                    "endColumn": 266,
-                    "endOffset": 5285
+                    "startOffset": 3985,
+                    "endColumn": 148,
+                    "endOffset": 4129
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/956de8fb4aad814b95b2c6cda13a49ff448faa9f/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 3031,
-                        "endColumn": 270,
-                        "endOffset": 3297
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 434,
+                        "endColumn": 148,
+                        "endOffset": 582
                     }
                 }
             },
@@ -728,18 +728,18 @@
                 "to": {
                     "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 5290,
-                    "endColumn": 121,
-                    "endOffset": 5407
+                    "startOffset": 4134,
+                    "endColumn": 94,
+                    "endOffset": 4224
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/956de8fb4aad814b95b2c6cda13a49ff448faa9f/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 2909,
-                        "endColumn": 121,
-                        "endOffset": 3026
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 583,
+                        "endColumn": 90,
+                        "endOffset": 673
                     }
                 }
             },
@@ -747,18 +747,18 @@
                 "to": {
                     "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 5412,
-                    "endColumn": 112,
-                    "endOffset": 5520
+                    "startOffset": 4229,
+                    "endColumn": 79,
+                    "endOffset": 4304
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 3302,
-                        "endColumn": 112,
-                        "endOffset": 3410
+                        "startLine": 20,
+                        "startColumn": 0,
+                        "startOffset": 1934,
+                        "endColumn": 75,
+                        "endOffset": 2009
                     }
                 }
             },
@@ -766,18 +766,18 @@
                 "to": {
                     "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 5525,
-                    "endColumn": 194,
-                    "endOffset": 5715
+                    "startOffset": 4309,
+                    "endColumn": 75,
+                    "endOffset": 4380
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1586,
-                        "endColumn": 198,
-                        "endOffset": 1780
+                        "startLine": 21,
+                        "startColumn": 0,
+                        "startOffset": 2010,
+                        "endColumn": 71,
+                        "endOffset": 2081
                     }
                 }
             },
@@ -785,18 +785,18 @@
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 5720,
-                    "endColumn": 129,
-                    "endOffset": 5845
+                    "startOffset": 4385,
+                    "endColumn": 83,
+                    "endOffset": 4464
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1456,
-                        "endColumn": 129,
-                        "endOffset": 1581
+                        "startLine": 22,
+                        "startColumn": 0,
+                        "startOffset": 2082,
+                        "endColumn": 79,
+                        "endOffset": 2161
                     }
                 }
             },
@@ -804,18 +804,18 @@
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 5850,
-                    "endColumn": 219,
-                    "endOffset": 6065
+                    "startOffset": 4469,
+                    "endColumn": 98,
+                    "endOffset": 4563
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 2110,
-                        "endColumn": 223,
-                        "endOffset": 2329
+                        "startLine": 23,
+                        "startColumn": 0,
+                        "startOffset": 2162,
+                        "endColumn": 94,
+                        "endOffset": 2256
                     }
                 }
             },
@@ -823,18 +823,18 @@
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 6070,
-                    "endColumn": 139,
-                    "endOffset": 6205
+                    "startOffset": 4568,
+                    "endColumn": 98,
+                    "endOffset": 4662
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1970,
-                        "endColumn": 139,
-                        "endOffset": 2105
+                        "startLine": 24,
+                        "startColumn": 0,
+                        "startOffset": 2257,
+                        "endColumn": 94,
+                        "endOffset": 2351
                     }
                 }
             },
@@ -842,18 +842,18 @@
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 6210,
-                    "endColumn": 184,
-                    "endOffset": 6390
+                    "startOffset": 4667,
+                    "endColumn": 91,
+                    "endOffset": 4754
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1785,
-                        "endColumn": 184,
-                        "endOffset": 1965
+                        "startLine": 25,
+                        "startColumn": 0,
+                        "startOffset": 2352,
+                        "endColumn": 87,
+                        "endOffset": 2439
                     }
                 }
             },
@@ -861,18 +861,18 @@
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 6395,
+                    "startOffset": 4759,
                     "endColumn": 96,
-                    "endOffset": 6487
+                    "endOffset": 4851
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 3415,
-                        "endColumn": 96,
-                        "endOffset": 3507
+                        "startLine": 26,
+                        "startColumn": 0,
+                        "startOffset": 2440,
+                        "endColumn": 92,
+                        "endOffset": 2532
                     }
                 }
             },
@@ -880,18 +880,18 @@
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 6492,
-                    "endColumn": 96,
-                    "endOffset": 6584
+                    "startOffset": 4856,
+                    "endColumn": 100,
+                    "endOffset": 4952
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 29,
-                        "startColumn": 4,
-                        "startOffset": 4380,
+                        "startLine": 27,
+                        "startColumn": 0,
+                        "startOffset": 2533,
                         "endColumn": 96,
-                        "endOffset": 4472
+                        "endOffset": 2629
                     }
                 }
             },
@@ -899,18 +899,18 @@
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 6589,
-                    "endColumn": 115,
-                    "endOffset": 6700
+                    "startOffset": 4957,
+                    "endColumn": 76,
+                    "endOffset": 5029
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/values-cs/base_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 30,
-                        "startColumn": 4,
-                        "startOffset": 4477,
-                        "endColumn": 115,
-                        "endOffset": 4588
+                        "startLine": 28,
+                        "startColumn": 0,
+                        "startOffset": 2630,
+                        "endColumn": 72,
+                        "endOffset": 2702
                     }
                 }
             },
@@ -918,18 +918,18 @@
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 6705,
-                    "endColumn": 107,
-                    "endOffset": 6808
+                    "startOffset": 5034,
+                    "endColumn": 101,
+                    "endOffset": 5131
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/values-cs/values-cs.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 278,
-                        "endColumn": 107,
-                        "endOffset": 381
+                        "startLine": 29,
+                        "startColumn": 0,
+                        "startOffset": 2703,
+                        "endColumn": 97,
+                        "endOffset": 2800
                     }
                 }
             },
@@ -937,18 +937,18 @@
                 "to": {
                     "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 6813,
-                    "endColumn": 112,
-                    "endOffset": 6921
+                    "startOffset": 5136,
+                    "endColumn": 95,
+                    "endOffset": 5227
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/values-cs/values-cs.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 386,
-                        "endColumn": 112,
-                        "endOffset": 494
+                        "startLine": 30,
+                        "startColumn": 0,
+                        "startOffset": 2801,
+                        "endColumn": 91,
+                        "endOffset": 2892
                     }
                 }
             },
@@ -956,18 +956,18 @@
                 "to": {
                     "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 6926,
-                    "endColumn": 107,
-                    "endOffset": 7029
+                    "startOffset": 5232,
+                    "endColumn": 98,
+                    "endOffset": 5326
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/values-cs/values-cs.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 499,
-                        "endColumn": 107,
-                        "endOffset": 602
+                        "startLine": 31,
+                        "startColumn": 0,
+                        "startOffset": 2893,
+                        "endColumn": 94,
+                        "endOffset": 2987
                     }
                 }
             },
@@ -975,18 +975,18 @@
                 "to": {
                     "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 7034,
-                    "endColumn": 101,
-                    "endOffset": 7131
+                    "startOffset": 5331,
+                    "endColumn": 115,
+                    "endOffset": 5442
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/values-cs/values-cs.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 607,
-                        "endColumn": 101,
-                        "endOffset": 704
+                        "startLine": 32,
+                        "startColumn": 0,
+                        "startOffset": 2988,
+                        "endColumn": 111,
+                        "endOffset": 3099
                     }
                 }
             },
@@ -994,18 +994,18 @@
                 "to": {
                     "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 7136,
-                    "endColumn": 117,
-                    "endOffset": 7249
+                    "startOffset": 5447,
+                    "endColumn": 143,
+                    "endOffset": 5586
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/values-cs/values-cs.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 709,
-                        "endColumn": 117,
-                        "endOffset": 822
+                        "startLine": 33,
+                        "startColumn": 0,
+                        "startOffset": 3100,
+                        "endColumn": 143,
+                        "endOffset": 3243
                     }
                 }
             },
@@ -1013,18 +1013,18 @@
                 "to": {
                     "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 7254,
-                    "endColumn": 100,
-                    "endOffset": 7350
+                    "startOffset": 5591,
+                    "endColumn": 139,
+                    "endOffset": 5726
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/values-cs/values-cs.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 827,
-                        "endColumn": 100,
-                        "endOffset": 923
+                        "startLine": 34,
+                        "startColumn": 0,
+                        "startOffset": 3244,
+                        "endColumn": 135,
+                        "endOffset": 3379
                     }
                 }
             },
@@ -1032,18 +1032,18 @@
                 "to": {
                     "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 7355,
-                    "endColumn": 96,
-                    "endOffset": 7447
+                    "startOffset": 5731,
+                    "endColumn": 138,
+                    "endOffset": 5865
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/values-cs/values-cs.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 928,
-                        "endColumn": 96,
-                        "endOffset": 1020
+                        "startLine": 35,
+                        "startColumn": 0,
+                        "startOffset": 3380,
+                        "endColumn": 134,
+                        "endOffset": 3514
                     }
                 }
             },
@@ -1051,18 +1051,18 @@
                 "to": {
                     "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 7452,
-                    "endColumn": 119,
-                    "endOffset": 7567
+                    "startOffset": 5870,
+                    "endColumn": 95,
+                    "endOffset": 5961
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/values-cs/values-cs.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1025,
-                        "endColumn": 119,
-                        "endOffset": 1140
+                        "startLine": 36,
+                        "startColumn": 0,
+                        "startOffset": 3515,
+                        "endColumn": 91,
+                        "endOffset": 3606
                     }
                 }
             },
@@ -1070,18 +1070,18 @@
                 "to": {
                     "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 7572,
-                    "endColumn": 106,
-                    "endOffset": 7674
+                    "startOffset": 5966,
+                    "endColumn": 90,
+                    "endOffset": 6052
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/values-cs/values-cs.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1145,
-                        "endColumn": 106,
-                        "endOffset": 1247
+                        "startLine": 37,
+                        "startColumn": 0,
+                        "startOffset": 3607,
+                        "endColumn": 86,
+                        "endOffset": 3693
                     }
                 }
             },
@@ -1089,18 +1089,18 @@
                 "to": {
                     "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 7679,
-                    "endColumn": 85,
-                    "endOffset": 7760
+                    "startOffset": 6057,
+                    "endColumn": 102,
+                    "endOffset": 6155
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/values-cs/values-cs.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1252,
-                        "endColumn": 85,
-                        "endOffset": 1333
+                        "startLine": 38,
+                        "startColumn": 0,
+                        "startOffset": 3694,
+                        "endColumn": 98,
+                        "endOffset": 3792
                     }
                 }
             },
@@ -1108,18 +1108,18 @@
                 "to": {
                     "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 7765,
-                    "endColumn": 94,
-                    "endOffset": 7855
+                    "startOffset": 6160,
+                    "endColumn": 82,
+                    "endOffset": 6238
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/values-cs/values-cs.xml",
+                    "file": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1338,
-                        "endColumn": 94,
-                        "endOffset": 1428
+                        "startLine": 39,
+                        "startColumn": 0,
+                        "startOffset": 3793,
+                        "endColumn": 78,
+                        "endOffset": 3871
                     }
                 }
             },
@@ -1127,18 +1127,18 @@
                 "to": {
                     "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 7860,
-                    "endColumn": 109,
-                    "endOffset": 7965
+                    "startOffset": 6243,
+                    "endColumn": 107,
+                    "endOffset": 6346
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/a3c63626f562359bbedf16a378a040172ea25199/output/res/values-cs/location_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/9f9ef6f910c52222fc5348c477ee933545438256/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 331,
-                        "endColumn": 109,
-                        "endOffset": 436
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 283,
+                        "endColumn": 103,
+                        "endOffset": 386
                     }
                 }
             },
@@ -1146,18 +1146,18 @@
                 "to": {
                     "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 7970,
-                    "endColumn": 100,
-                    "endOffset": 8066
+                    "startOffset": 6351,
+                    "endColumn": 191,
+                    "endOffset": 6538
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/a3c63626f562359bbedf16a378a040172ea25199/output/res/values-cs/location_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/9f9ef6f910c52222fc5348c477ee933545438256/output/res/values-cs/values.xml",
                     "position": {
                         "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 230,
-                        "endColumn": 100,
-                        "endOffset": 326
+                        "startColumn": 0,
+                        "startOffset": 387,
+                        "endColumn": 191,
+                        "endOffset": 578
                     }
                 }
             },
@@ -1165,9 +1165,769 @@
                 "to": {
                     "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 8071,
+                    "startOffset": 6543,
+                    "endColumn": 126,
+                    "endOffset": 6665
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/9f9ef6f910c52222fc5348c477ee933545438256/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 579,
+                        "endColumn": 122,
+                        "endOffset": 701
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 6670,
+                    "endColumn": 111,
+                    "endOffset": 6777
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/9f9ef6f910c52222fc5348c477ee933545438256/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 702,
+                        "endColumn": 107,
+                        "endOffset": 809
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 6782,
+                    "endColumn": 211,
+                    "endOffset": 6989
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/9f9ef6f910c52222fc5348c477ee933545438256/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 810,
+                        "endColumn": 211,
+                        "endOffset": 1021
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 6994,
+                    "endColumn": 128,
+                    "endOffset": 7118
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/9f9ef6f910c52222fc5348c477ee933545438256/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 1022,
+                        "endColumn": 124,
+                        "endOffset": 1146
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 7123,
+                    "endColumn": 129,
+                    "endOffset": 7248
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/9f9ef6f910c52222fc5348c477ee933545438256/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 1147,
+                        "endColumn": 125,
+                        "endOffset": 1272
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 7253,
+                    "endColumn": 201,
+                    "endOffset": 7450
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/32fbc07676b2bdfa33450757e270a66070a74883/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 201,
+                        "endOffset": 486
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 7455,
+                    "endColumn": 233,
+                    "endOffset": 7684
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/9f9ef6f910c52222fc5348c477ee933545438256/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1273,
+                        "endColumn": 233,
+                        "endOffset": 1506
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 7689,
+                    "endColumn": 112,
+                    "endOffset": 7797
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/9f9ef6f910c52222fc5348c477ee933545438256/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1507,
+                        "endColumn": 108,
+                        "endOffset": 1615
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 7802,
+                    "endColumn": 194,
+                    "endOffset": 7992
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/9f9ef6f910c52222fc5348c477ee933545438256/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1616,
+                        "endColumn": 194,
+                        "endOffset": 1810
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 7997,
+                    "endColumn": 129,
+                    "endOffset": 8122
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/9f9ef6f910c52222fc5348c477ee933545438256/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1811,
+                        "endColumn": 125,
+                        "endOffset": 1936
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 8127,
+                    "endColumn": 219,
+                    "endOffset": 8342
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/9f9ef6f910c52222fc5348c477ee933545438256/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1937,
+                        "endColumn": 219,
+                        "endOffset": 2156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 8347,
+                    "endColumn": 184,
+                    "endOffset": 8527
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/9f9ef6f910c52222fc5348c477ee933545438256/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 2157,
+                        "endColumn": 180,
+                        "endOffset": 2337
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 8532,
+                    "endColumn": 97,
+                    "endOffset": 8625
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/9f9ef6f910c52222fc5348c477ee933545438256/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 2338,
+                        "endColumn": 93,
+                        "endOffset": 2431
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 8630,
+                    "endColumn": 96,
+                    "endOffset": 8722
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/9f9ef6f910c52222fc5348c477ee933545438256/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 2432,
+                        "endColumn": 92,
+                        "endOffset": 2524
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 8727,
+                    "endColumn": 114,
+                    "endOffset": 8837
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/9f9ef6f910c52222fc5348c477ee933545438256/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 2525,
+                        "endColumn": 110,
+                        "endOffset": 2635
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 8842,
+                    "endColumn": 131,
+                    "endOffset": 8969
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/6785ccb1c711041eea51919f2f7237b21b60b49c/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 307,
+                        "endColumn": 127,
+                        "endOffset": 434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 8974,
+                    "endColumn": 108,
+                    "endOffset": 9078
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/6785ccb1c711041eea51919f2f7237b21b60b49c/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 435,
+                        "endColumn": 104,
+                        "endOffset": 539
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 9083,
+                    "endColumn": 103,
+                    "endOffset": 9182
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/6785ccb1c711041eea51919f2f7237b21b60b49c/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 540,
+                        "endColumn": 99,
+                        "endOffset": 639
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 9187,
+                    "endColumn": 101,
+                    "endOffset": 9284
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/6785ccb1c711041eea51919f2f7237b21b60b49c/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 640,
+                        "endColumn": 97,
+                        "endOffset": 737
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 9289,
+                    "endColumn": 94,
+                    "endOffset": 9379
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/6785ccb1c711041eea51919f2f7237b21b60b49c/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 738,
+                        "endColumn": 90,
+                        "endOffset": 828
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 9384,
+                    "endColumn": 106,
+                    "endOffset": 9486
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/6785ccb1c711041eea51919f2f7237b21b60b49c/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 829,
+                        "endColumn": 102,
+                        "endOffset": 931
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 9491,
+                    "endColumn": 75,
+                    "endOffset": 9562
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/6785ccb1c711041eea51919f2f7237b21b60b49c/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 932,
+                        "endColumn": 71,
+                        "endOffset": 1003
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 9567,
+                    "endColumn": 106,
+                    "endOffset": 9669
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 106,
+                        "endOffset": 157
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 9674,
+                    "endColumn": 95,
+                    "endOffset": 9765
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 162,
+                        "endColumn": 95,
+                        "endOffset": 253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 9770,
+                    "endColumn": 85,
+                    "endOffset": 9851
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 258,
+                        "endColumn": 85,
+                        "endOffset": 339
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 9856,
+                    "endColumn": 91,
+                    "endOffset": 9943
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 344,
+                        "endColumn": 91,
+                        "endOffset": 431
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 9948,
+                    "endColumn": 113,
+                    "endOffset": 10057
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 436,
+                        "endColumn": 113,
+                        "endOffset": 545
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 10062,
+                    "endColumn": 96,
+                    "endOffset": 10154
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 550,
+                        "endColumn": 96,
+                        "endOffset": 642
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 10159,
+                    "endColumn": 93,
+                    "endOffset": 10248
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 647,
+                        "endColumn": 93,
+                        "endOffset": 736
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 10253,
+                    "endColumn": 90,
+                    "endOffset": 10339
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 741,
+                        "endColumn": 90,
+                        "endOffset": 827
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 10344,
+                    "endColumn": 93,
+                    "endOffset": 10433
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 832,
+                        "endColumn": 93,
+                        "endOffset": 921
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 10438,
+                    "endColumn": 124,
+                    "endOffset": 10558
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 926,
+                        "endColumn": 124,
+                        "endOffset": 1046
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 10563,
+                    "endColumn": 116,
+                    "endOffset": 10675
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1051,
+                        "endColumn": 116,
+                        "endOffset": 1163
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 10680,
+                    "endColumn": 88,
+                    "endOffset": 10764
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1168,
+                        "endColumn": 88,
+                        "endOffset": 1252
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 10769,
+                    "endColumn": 83,
+                    "endOffset": 10848
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1257,
+                        "endColumn": 83,
+                        "endOffset": 1336
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 10853,
+                    "endColumn": 95,
+                    "endOffset": 10944
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1341,
+                        "endColumn": 95,
+                        "endOffset": 1432
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 10949,
+                    "endColumn": 85,
+                    "endOffset": 11030
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1437,
+                        "endColumn": 85,
+                        "endOffset": 1518
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 11035,
+                    "endColumn": 94,
+                    "endOffset": 11125
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/values-cs/values-cs.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1523,
+                        "endColumn": 94,
+                        "endOffset": 1613
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 11130,
+                    "endColumn": 109,
+                    "endOffset": 11235
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/e42ceba68a6c019f0b5418f7ad4fe5ee521a2d18/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 233,
+                        "endColumn": 105,
+                        "endOffset": 338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 11240,
+                    "endColumn": 100,
+                    "endOffset": 11336
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/e42ceba68a6c019f0b5418f7ad4fe5ee521a2d18/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 339,
+                        "endColumn": 96,
+                        "endOffset": 435
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 11341,
                     "endColumn": 81,
-                    "endOffset": 8148
+                    "endOffset": 11418
                 },
                 "from": {
                     "file": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/values-cs/values-cs.xml",
@@ -1182,11 +1942,11 @@
             },
             {
                 "to": {
-                    "startLine": 64,
+                    "startLine": 104,
                     "startColumn": 4,
-                    "startOffset": 8153,
+                    "startOffset": 11423,
                     "endColumn": 100,
-                    "endOffset": 8249
+                    "endOffset": 11519
                 },
                 "from": {
                     "file": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/values-cs/values-cs.xml",
@@ -1201,20 +1961,58 @@
             },
             {
                 "to": {
-                    "startLine": 65,
+                    "startLine": 105,
                     "startColumn": 4,
-                    "startOffset": 8254,
-                    "endColumn": 109,
-                    "endOffset": 8359
+                    "startOffset": 11524,
+                    "endColumn": 129,
+                    "endOffset": 11649
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/cf2a72343930b0234940da9e7a52cbed8601cbd3/output/res/values-cs/wallet_strings.xml",
+                    "file": "/Users/ameya/.android/build-cache/6785ccb1c711041eea51919f2f7237b21b60b49c/output/res/values-cs/values.xml",
                     "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 230,
-                        "endColumn": 109,
-                        "endOffset": 335
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1004,
+                        "endColumn": 125,
+                        "endOffset": 1129
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 11654,
+                    "endColumn": 92,
+                    "endOffset": 11742
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/6785ccb1c711041eea51919f2f7237b21b60b49c/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1130,
+                        "endColumn": 88,
+                        "endOffset": 1218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 11747,
+                    "endColumn": 108,
+                    "endOffset": 11851
+                },
+                "from": {
+                    "file": "/Users/ameya/.android/build-cache/ef0f348933f10ad690cf8ed31882df4eabeefec3/output/res/values-cs/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 240,
+                        "endColumn": 104,
+                        "endOffset": 344
                     }
                 }
             }

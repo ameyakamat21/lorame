@@ -1744,17 +1744,19 @@
                     "startLine": 253,
                     "startColumn": 4,
                     "startOffset": 18450,
-                    "endColumn": 121,
-                    "endOffset": 18567
+                    "endLine": 254,
+                    "endColumn": 8,
+                    "endOffset": 18575
                 },
                 "from": {
-                    "file": "/Users/ameya/.android/build-cache/e8b4a6c2c31d1c456fe9048028975ab5a279fe78/output/res/values-v21/appinvite_styles.xml",
+                    "file": "/Users/ameya/.android/build-cache/5c8fc806c7511a7deec504c2f0a38c4ab3eb2c9b/output/res/values-v21/values.xml",
                     "position": {
                         "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 101,
-                        "endColumn": 121,
-                        "endOffset": 218
+                        "startColumn": 0,
+                        "startOffset": 172,
+                        "endLine": 5,
+                        "endColumn": 8,
+                        "endOffset": 297
                     }
                 }
             }
