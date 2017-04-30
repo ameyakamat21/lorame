@@ -1,5 +1,7 @@
 package com.ksksue.app.fpga_fifo;
 
+import android.content.Intent;
+import android.location.Location;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 
@@ -7,17 +9,25 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.ksksue.app.ftdi_uart.MainActivity;
 
 public class MapActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
+    private Location selfLocation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
+
+        Intent intent = getIntent();
+        selfLocation = (Location) intent.getParcelableExtra(
+                MainActivity.SELF_LOCATION_KEY);
+
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
@@ -38,9 +48,15 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        LatLng bakerHall = new LatLng(40.441997, -79.945389);
+///        LatLng bakerHall = new LatLng(40.441997, -79.945389);
+        LatLng selfLatLng = new LatLng(selfLocation.getLatitude(),
+                        selfLocation.getLongitude());
+        mMap.addMarker(new MarkerOptions()
+                .position(selfLatLng)
+                .title("Myself")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(selfLatLng));
+        mMap.moveCamera(CameraUpdateFactory.zoomTo((float) 15.0));
 
-        mMap.addMarker(new MarkerOptions().position(bakerHall).title("BH B125"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(bakerHall));
     }
 }

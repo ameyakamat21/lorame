@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_light.xml",
-        "source": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/drawable/mr_ic_media_route_connecting_light.xml"
-    },
-    {
         "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
         "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_light.xml",
+        "source": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/drawable/mr_ic_media_route_connecting_light.xml"
     },
     {
         "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_progress_drawable.xml",
@@ -20,12 +20,12 @@
         "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_rewind30.xml",
-        "source": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/drawable/cast_ic_mini_controller_rewind30.xml"
-    },
-    {
         "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
         "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_rewind30.xml",
+        "source": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/drawable/cast_ic_mini_controller_rewind30.xml"
     },
     {
         "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
@@ -40,12 +40,12 @@
         "source": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/drawable/cast_ic_expanded_controller_stop.xml"
     },
     {
-        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_pause.xml",
-        "source": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/drawable/cast_ic_expanded_controller_pause.xml"
-    },
-    {
         "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_normal.xml",
         "source": "/Users/ameya/.android/build-cache/9f9ef6f910c52222fc5348c477ee933545438256/output/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_pause.xml",
+        "source": "/Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/res/drawable/cast_ic_expanded_controller_pause.xml"
     },
     {
         "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_forward30.xml",
@@ -116,12 +116,12 @@
         "source": "/Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/res/drawable/mr_ic_cast_light.xml"
     },
     {
-        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
         "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
         "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_forward30.xml",

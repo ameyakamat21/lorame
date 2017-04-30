@@ -1,4 +1,4 @@
-#Sun Apr 30 18:34:17 EDT 2017
+#Sun Apr 30 19:25:50 EDT 2017
 file.68=/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4414a40b9dff9d70e3dee4eb10ca4f07aa66c627/classes.dex
 file.67=/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f02f66e962b606c6c39b4e1892d62f5a8034ee31/classes.dex
 file.66=/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7f465c59673ba268c6fcf6d913cb0f5074f55c58/classes.dex

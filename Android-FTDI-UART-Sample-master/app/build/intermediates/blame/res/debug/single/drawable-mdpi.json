@@ -20,20 +20,20 @@
         "source": "/Users/ameya/.android/build-cache/40eb8ad11ad25ad460090de13d076848e4cf37ca/output/res/drawable-mdpi/common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_plusone_medium_off_client.png",
-        "source": "/Users/ameya/.android/build-cache/f8faaf50a4327a2b72c601beb3a1355784ddd545/output/res/drawable-mdpi/ic_plusone_medium_off_client.png"
-    },
-    {
         "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable-mdpi/powered_by_google_dark.png",
         "source": "/Users/ameya/.android/build-cache/a3c63626f562359bbedf16a378a040172ea25199/output/res/drawable-mdpi/powered_by_google_dark.png"
     },
     {
-        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_play_dark.png",
-        "source": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/drawable-mdpi/ic_play_dark.png"
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_plusone_medium_off_client.png",
+        "source": "/Users/ameya/.android/build-cache/f8faaf50a4327a2b72c601beb3a1355784ddd545/output/res/drawable-mdpi/ic_plusone_medium_off_client.png"
     },
     {
         "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_pause_dark.png",
         "source": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/drawable-mdpi/ic_pause_dark.png"
+    },
+    {
+        "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_play_dark.png",
+        "source": "/Users/ameya/.android/build-cache/5703fa7539a006142785f010c0fb026ce40047b1/output/res/drawable-mdpi/ic_play_dark.png"
     },
     {
         "merged": "/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_dark_pressed.9.png",

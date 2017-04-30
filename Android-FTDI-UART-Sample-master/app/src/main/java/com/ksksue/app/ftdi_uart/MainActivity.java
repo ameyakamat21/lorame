@@ -49,6 +49,7 @@ public class MainActivity extends Activity implements
     private final static String TAG = "FPGA_FIFO Activity";
 
     private static D2xxManager ftD2xx = null;
+    public static String SELF_LOCATION_KEY = "SELF_LOCATION";
     private FT_Device ftDev;
 
     static final int READBUF_SIZE  = 256;
@@ -187,8 +188,7 @@ public class MainActivity extends Activity implements
         Log.e("LOCERR", "The connection was suspended.");
     }
 
-    private void getAndDisplayLocation() {
-
+    public Location getLocation() {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) !=
                 PackageManager.PERMISSION_GRANTED ||
                 ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) !=
@@ -202,6 +202,12 @@ public class MainActivity extends Activity implements
 
         Location mLastLocation = LocationServices.FusedLocationApi.getLastLocation(
                 mGoogleApiClient);
+        return mLastLocation;
+    }
+
+    private void getAndDisplayLocation() {
+
+        Location mLastLocation = getLocation();
 
         if (mLastLocation != null) {
             currLatitude = mLastLocation.getLatitude();
@@ -477,7 +483,8 @@ public class MainActivity extends Activity implements
 
     public void openMapCallback(View view) {
         Intent intent = new Intent(this, MapActivity.class);
-//        intent.putExtra(EXTRA_MESSAGE, message);
+        intent.putExtra(SELF_LOCATION_KEY, getLocation());
+
         startActivity(intent);
     }
 

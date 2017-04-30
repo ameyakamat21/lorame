@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Apr 30 18:34:17 EDT 2017
+#Sun Apr 30 19:25:50 EDT 2017
 20.base=/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/resources-debug.ap_
 143.base=/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/resources-debug.ap_
 493.base=/Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/build/intermediates/res/resources-debug.ap_
