@@ -23,8 +23,10 @@ import android.os.Handler;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
@@ -43,6 +45,9 @@ import com.ftdi.j2xx.FT_Device;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.ksksue.app.fpga_fifo.MapActivity;
 import com.ksksue.app.fpga_fifo.R;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends Activity implements
         ConnectionCallbacks, OnConnectionFailedListener {
@@ -65,6 +70,9 @@ public class MainActivity extends Activity implements
     Button btWrite;
     Button btClose;
     Button btRecv;
+    Button debuger;
+    Spinner spinner;
+    ArrayAdapter<String> spinnerDataAdapter;
 
     boolean mThreadIsStopped = true;
     Handler mHandler = new Handler();
@@ -89,6 +97,14 @@ public class MainActivity extends Activity implements
         btWrite = (Button) findViewById(R.id.btWrite);
         btRecv = (Button) findViewById(R.id.btRecv);
         btClose = (Button) findViewById(R.id.btClose);
+        debuger = (Button) findViewById(R.id.debug);
+
+
+        List<String> list = new ArrayList<String>();
+        list.add("Everyone");
+        spinnerDataAdapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_spinner_item, list);
+        makeSpinner(spinnerDataAdapter);
 
         updateView(false);
 
@@ -105,10 +121,26 @@ public class MainActivity extends Activity implements
 
     }
 
+    private void makeSpinner(ArrayAdapter<String> dataAdapter) {
+        spinner = (Spinner) findViewById(R.id.spinner);
+        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(dataAdapter);
+    }
+
     public void onClickOpen(View v) {
         openDevice();
     }
 
+    public void onDebug(View v) {
+        Toast.makeText(MainActivity.this,
+                "OnClickListener : " +
+                        "\nSpinner : "+ String.valueOf(spinner.getSelectedItem()) +
+                        etWrite.getText().toString(),
+                Toast.LENGTH_SHORT).show();
+
+        spinnerDataAdapter.add("new one!");
+        spinnerDataAdapter.notifyDataSetChanged();
+    }
 
     public void onClickWrite(View v) {
         if(ftDev == null) {
