@@ -12,9 +12,10 @@
         android:id="@+id/etWrite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:ems="10" />
+        android:ems="10"
+        android:layout_above="@+id/btWrite"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:id="@+id/btWrite"
@@ -22,11 +23,9 @@
         android:layout_height="wrap_content"
         android:onClick="onClickWrite"
         android:text="Write"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignBottom="@+id/etWrite"
-        android:layout_toRightOf="@+id/etWrite"
-        android:layout_toEndOf="@+id/etWrite" />
+        android:layout_toEndOf="@+id/spinner" />
 
     <Button
         android:layout_width="wrap_content"
@@ -34,10 +33,9 @@
         android:id="@+id/clearTv"
         android:text="Clear"
         android:onClick="clearTv"
-        android:layout_below="@+id/etWrite"
-        android:layout_toRightOf="@+id/btClose"
-        android:layout_toLeftOf="@+id/btWrite"
-        android:layout_toStartOf="@+id/btWrite" />
+        android:layout_alignBaseline="@+id/btClose"
+        android:layout_alignBottom="@+id/btClose"
+        android:layout_toEndOf="@+id/btClose" />
 
     <Button
         android:id="@+id/btRecv"
@@ -45,27 +43,26 @@
         android:layout_height="wrap_content"
         android:onClick="onClickRecv"
         android:text="Recv"
-        android:layout_below="@+id/btWrite"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_toRightOf="@+id/etWrite"
-        android:layout_toEndOf="@+id/etWrite" />
+        android:layout_toEndOf="@+id/get_location_btn" />
 
     <Button
         android:id="@+id/btOpen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/etWrite"
         android:onClick="onClickOpen"
         android:text="Open" />
 
-    <Button android:layout_below="@+id/btOpen"
+    <Button
         android:id="@+id/get_location_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Get location"
-        android:onClick="getLocationBtnCallback" />
+        android:onClick="getLocationBtnCallback"
+        android:layout_below="@+id/clearTv"
+        android:layout_toEndOf="@+id/openMapBtn"
+        android:layout_marginStart="27dp" />
 
     <Button
         android:id="@+id/openMapBtn"
@@ -73,8 +70,8 @@
         android:layout_height="wrap_content"
         android:text="Show map"
         android:onClick="openMapCallback"
-        android:layout_below="@+id/clearTv"
-        android:layout_toEndOf="@+id/btClose" />
+        android:layout_below="@+id/btOpen"
+        android:layout_toStartOf="@+id/clearTv" />
 
     <Button
         android:id="@+id/btClose"
@@ -86,15 +83,33 @@
         android:layout_alignBottom="@+id/btOpen"
         android:layout_toEndOf="@+id/btOpen" />
 
+    <Button
+        android:id="@+id/debug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onDebug"
+        android:text="Debug"
+        android:layout_below="@+id/get_location_btn"
+        android:layout_alignStart="@+id/get_location_btn" />
+
     <TextView
         android:id="@+id/tvRead"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Read Data : "
-        android:layout_below="@+id/get_location_btn"
-        android:layout_alignParentStart="true"
+        android:text="Messages: "
+        android:layout_below="@+id/openMapBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignEnd="@+id/etWrite"
+        android:layout_above="@+id/etWrite" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/clearTv"
+        android:id="@+id/spinner"></Spinner>
 
 
 </RelativeLayout>

@@ -26,11 +26,11 @@ MERGED from [com.google.android.gms:play-services-auth:10.2.1] /Users/ameya/.and
 MERGED from [com.google.android.gms:play-services-auth-base:10.2.1] /Users/ameya/.android/build-cache/77dee52dc36369a5f2dfdbd931c7feae6b8a6bef/output/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-cast-framework:10.2.1] /Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-cast:10.2.1] /Users/ameya/.android/build-cache/956de8fb4aad814b95b2c6cda13a49ff448faa9f/output/AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:palette-v7:24.0.0] /Users/ameya/.android/build-cache/8304430dae2a7d90af075fc29dea97b27552c1fd/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/ameya/.android/build-cache/6134b483f45098b25deccb72205810f863ef9684/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/ameya/.android/build-cache/dda11dae5d92448e8e0a84069d0fb6b2432f0f8e/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/ameya/.android/build-cache/622015e343c664091904fc46449b0abee80b2ff7/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:24.0.0] /Users/ameya/.android/build-cache/dfc1ee41b8bff264e674fd2995b4ff00cf2cf00c/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/ameya/.android/build-cache/f88982a7b89ae44de0b96b020dc59a364bd7cac0/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/ameya/.android/build-cache/1347d197f2ccff0ef003653b8edc330fa047d822/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/ameya/.android/build-cache/f1407e767ff1cdd787721561347ae6fd304cec86/output/AndroidManifest.xml:21:5-43
 MERGED from [com.google.android.gms:play-services-clearcut:10.2.1] /Users/ameya/.android/build-cache/99f334a08c010ffc67dbae0e2acfdba0264d49b0/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-config:10.2.1] /Users/ameya/.android/build-cache/2a87ca8670b7ccf7a72fdf79e061f5763728228a/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-awareness:10.2.1] /Users/ameya/.android/build-cache/e80aab970a64e7927d5caf7502b933dbc27334ef/output/AndroidManifest.xml:17:5-43
@@ -71,15 +71,15 @@ MERGED from [com.google.android.gms:play-services-wearable:10.2.1] /Users/ameya/
 MERGED from [com.google.android.gms:play-services-base:10.2.1] /Users/ameya/.android/build-cache/9f9ef6f910c52222fc5348c477ee933545438256/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /Users/ameya/.android/build-cache/69b4d73aa915a2b7964b0dc786adb4242cacbf64/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-basement:10.2.1] /Users/ameya/.android/build-cache/32fbc07676b2bdfa33450757e270a66070a74883/output/AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:24.2.1] /Users/ameya/.android/build-cache/0d757bbcb341f5466c8419aa227173d1f8e05245/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:24.2.1] /Users/ameya/.android/build-cache/44f3e1eee80868ce06fc1d11c917126f3ae807ca/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:24.2.1] /Users/ameya/.android/build-cache/894c01d421d452abe73a04863281bfcde721aa60/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:24.2.1] /Users/ameya/.android/build-cache/081e6d3a3f72dd40701d5a43976fe8431082f5b2/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:24.2.1] /Users/ameya/.android/build-cache/5b758bf82cf9dfeb2e5517346062ba505780d54d/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:24.2.1] /Users/ameya/.android/build-cache/fbb7657287d4b35e58ff5c5be8253ba9d44e3fc9/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:multidex:1.0.0] /Users/ameya/.android/build-cache/83641f2e279c715ffbeac1994b7a17fb18ada338/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.2.1] /Users/ameya/.android/build-cache/73c16ae66e72ba266fdba7b6b609c21f14ff7dca/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.1] /Users/ameya/.android/build-cache/f9ebf82b04b2d14f69bc174c87624b3ecccff366/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] /Users/ameya/.android/build-cache/d0272f6b5fb8c056bf0ffe8479ff87cd06d626f2/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:24.2.1] /Users/ameya/.android/build-cache/8c74820445644a3bc9b6e1921a69cef6cd44fdb2/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.1] /Users/ameya/.android/build-cache/8d4bf7738105076c0679c8eb8c19f3a1324c951f/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.1] /Users/ameya/.android/build-cache/6ddd618c67589270b4aa077ebb6d9e562846fc56/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:multidex:1.0.0] /Users/ameya/.android/build-cache/2d39f60b58a613fc519e4b199cc19dbf394d8822/output/AndroidManifest.xml:18:5-42
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.2.1] /Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.2.1] /Users/ameya/.android/build-cache/f88982a7b89ae44de0b96b020dc59a364bd7cac0/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		ADDED from /Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/src/main/AndroidManifest.xml:9:9-38
 		INJECTED from /Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/src/main/AndroidManifest.xml
@@ -121,11 +121,11 @@ MERGED from [com.google.android.gms:play-services-appinvite:10.2.1] /Users/ameya
 MERGED from [com.google.android.gms:play-services-auth:10.2.1] /Users/ameya/.android/build-cache/8d22ff5e468aaa40f29b03dcc6fdc21f2e4d480d/output/AndroidManifest.xml:19:5-25:19
 MERGED from [com.google.android.gms:play-services-cast-framework:10.2.1] /Users/ameya/.android/build-cache/f05bc4e5b412c9500771af0ca9b1178f7e159df6/output/AndroidManifest.xml:4:5-8:19
 MERGED from [com.google.android.gms:play-services-cast:10.2.1] /Users/ameya/.android/build-cache/956de8fb4aad814b95b2c6cda13a49ff448faa9f/output/AndroidManifest.xml:18:5-19
-MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/ameya/.android/build-cache/0253921a8974c6949a25e7480634b1ad25ba4bcc/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:palette-v7:24.0.0] /Users/ameya/.android/build-cache/8304430dae2a7d90af075fc29dea97b27552c1fd/output/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/ameya/.android/build-cache/67dbb23ef9448c929dc42cb5a57d6fa596849134/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/ameya/.android/build-cache/6134b483f45098b25deccb72205810f863ef9684/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/ameya/.android/build-cache/dda11dae5d92448e8e0a84069d0fb6b2432f0f8e/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/ameya/.android/build-cache/622015e343c664091904fc46449b0abee80b2ff7/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:24.0.0] /Users/ameya/.android/build-cache/dfc1ee41b8bff264e674fd2995b4ff00cf2cf00c/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/ameya/.android/build-cache/f88982a7b89ae44de0b96b020dc59a364bd7cac0/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/ameya/.android/build-cache/1347d197f2ccff0ef003653b8edc330fa047d822/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/ameya/.android/build-cache/f1407e767ff1cdd787721561347ae6fd304cec86/output/AndroidManifest.xml:23:5-20
 MERGED from [com.google.android.gms:play-services-clearcut:10.2.1] /Users/ameya/.android/build-cache/99f334a08c010ffc67dbae0e2acfdba0264d49b0/output/AndroidManifest.xml:18:5-19
 MERGED from [com.google.firebase:firebase-config:10.2.1] /Users/ameya/.android/build-cache/2a87ca8670b7ccf7a72fdf79e061f5763728228a/output/AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-awareness:10.2.1] /Users/ameya/.android/build-cache/e80aab970a64e7927d5caf7502b933dbc27334ef/output/AndroidManifest.xml:18:5-19
@@ -159,12 +159,12 @@ MERGED from [com.google.android.gms:play-services-wearable:10.2.1] /Users/ameya/
 MERGED from [com.google.android.gms:play-services-base:10.2.1] /Users/ameya/.android/build-cache/9f9ef6f910c52222fc5348c477ee933545438256/output/AndroidManifest.xml:18:5-20:19
 MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /Users/ameya/.android/build-cache/69b4d73aa915a2b7964b0dc786adb4242cacbf64/output/AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:10.2.1] /Users/ameya/.android/build-cache/32fbc07676b2bdfa33450757e270a66070a74883/output/AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:24.2.1] /Users/ameya/.android/build-cache/0d757bbcb341f5466c8419aa227173d1f8e05245/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:24.2.1] /Users/ameya/.android/build-cache/44f3e1eee80868ce06fc1d11c917126f3ae807ca/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.1] /Users/ameya/.android/build-cache/894c01d421d452abe73a04863281bfcde721aa60/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.1] /Users/ameya/.android/build-cache/081e6d3a3f72dd40701d5a43976fe8431082f5b2/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.1] /Users/ameya/.android/build-cache/5b758bf82cf9dfeb2e5517346062ba505780d54d/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.1] /Users/ameya/.android/build-cache/fbb7657287d4b35e58ff5c5be8253ba9d44e3fc9/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] /Users/ameya/.android/build-cache/73c16ae66e72ba266fdba7b6b609c21f14ff7dca/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] /Users/ameya/.android/build-cache/f9ebf82b04b2d14f69bc174c87624b3ecccff366/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] /Users/ameya/.android/build-cache/d0272f6b5fb8c056bf0ffe8479ff87cd06d626f2/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] /Users/ameya/.android/build-cache/8c74820445644a3bc9b6e1921a69cef6cd44fdb2/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] /Users/ameya/.android/build-cache/8d4bf7738105076c0679c8eb8c19f3a1324c951f/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] /Users/ameya/.android/build-cache/6ddd618c67589270b4aa077ebb6d9e562846fc56/output/AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from /Users/ameya/CarnegieMellon/Sem10/18748/lorame/Android-FTDI-UART-Sample-master/app/src/main/AndroidManifest.xml:23:9-41
 	android:allowBackup
