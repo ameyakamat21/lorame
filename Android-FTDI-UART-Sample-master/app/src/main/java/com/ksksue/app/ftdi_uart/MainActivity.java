@@ -47,7 +47,9 @@ import com.ksksue.app.fpga_fifo.MapActivity;
 import com.ksksue.app.fpga_fifo.R;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.Set;
 
 public class MainActivity extends Activity implements
         ConnectionCallbacks, OnConnectionFailedListener {
@@ -77,6 +79,8 @@ public class MainActivity extends Activity implements
     boolean mThreadIsStopped = true;
     Handler mHandler = new Handler();
     Thread mThread;
+
+    NetworkManager network = new NetworkManager();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -379,6 +383,10 @@ public class MainActivity extends Activity implements
                         for(i=0; i<mReadSize; i++) {
                             rchar[i] = (char)rbuf[i];
                         }
+
+                        char[] copyr = rchar.clone();
+                        handleInputFromFtDev(copyr);
+
                         mHandler.post(new Runnable() {
                             @Override
                             public void run() {
@@ -391,6 +399,42 @@ public class MainActivity extends Activity implements
             }
         }
     };
+
+    private void updateSpinnerList(){
+        List<String> ids = new ArrayList<String>(this.network.network.keySet());
+        Collections.sort(ids);
+        spinnerDataAdapter.clear();
+        spinnerDataAdapter.addAll(ids);
+        spinnerDataAdapter.notifyDataSetChanged();
+    }
+
+    private void handleInputFromFtDev(char[] copyr) {
+        String[] input = copyr.toString().split("\\s+");
+        if(input.length < 1){
+            return;
+        }
+        if (input.length < 3){
+            if(input.length < 3){
+                Toast.makeText(MainActivity.this,
+                        "Received message len less than len 3: " + copyr,
+                        Toast.LENGTH_SHORT).show();
+            }
+            return;
+        }
+        switch (input[0]){
+            case "a":
+                //Add neighbor
+                this.network.addNeighbor(input[1],input[2]);
+                updateSpinnerList();
+                break;
+            case "d":
+                //Delete neighbor
+                this.network.deleteNeighbor(input[1]);
+                updateSpinnerList();
+                break;
+
+        }
+    }
 
     private void closeDevice() {
         mThreadIsStopped = true;
