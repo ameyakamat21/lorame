@@ -27,12 +27,12 @@ public class SerialPayload {
 		
 		if ((payload.length() % 2) != 0) {
 			// we need to consume a nibble
-			buffer.put((byte)Integer.parseUnsignedInt(payload.substring(index, index+1), 16));
+			buffer.put((byte)Integer.parseInt(payload.substring(index, index+1), 16));
 			index++;
 			count++;
 		}
 		for(; index < (payload.length()-1); index+=2) {
-			buffer.put((byte)Integer.parseUnsignedInt(payload.substring(index, index+2), 16));
+			buffer.put((byte)Integer.parseInt(payload.substring(index, index+2), 16));
 			count++;
 		}
 	}
