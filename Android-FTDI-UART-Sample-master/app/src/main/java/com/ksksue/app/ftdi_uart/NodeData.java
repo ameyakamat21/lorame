@@ -1,5 +1,7 @@
 package com.ksksue.app.ftdi_uart;
 
+import org.w3c.dom.Node;
+
 import java.util.List;
 
 /**
@@ -11,4 +13,14 @@ public class NodeData {
     public String rssi;
     public List<NodeData> neighbors;
     public String gps;
+
+    @Override
+    public boolean equals(Object ob) {
+        if(!(ob instanceof  NodeData)) {
+            return false;
+        }
+
+        NodeData thatNodeData = (NodeData) ob;
+        return this.id.equals(thatNodeData.id);
+    }
 }

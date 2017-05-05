@@ -66,7 +66,7 @@ public class MainActivity extends Activity implements
     int mReadSize=0;
     private GoogleApiClient mGoogleApiClient;
     private double currLatitude, currLongitude;
-    
+
 
     TextView tvRead;
     TextView logRead;
