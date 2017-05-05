@@ -508,12 +508,19 @@ public class MainActivity extends Activity implements
                         }
 
                         logRead.append(">>"+this.state.id+"<\n");
-                        if(fm.ids.get(fm.ids.size()-1).equals(this.state.id)){
+                        if (fm.ids.size()==0){
+
+                            tvRead.append(input[1] + ": " + fm.message + "\n");
+                        }else if(fm.ids.get(fm.ids.size()-1).equals(this.state.id)){
                             tvRead.append(input[1] + ": " + fm.message + "\n");
                         }else{
                             int index = fm.ids.lastIndexOf(this.state.id);
                             String wString = "S " + fm.ids.get(index+1)+ " "+ sp.toString() + "\n";
+//                            logRead.append(wString);
                             logRead.append("Forwarded message to "+ fm.ids.get(index+1) + "> " + index);
+
+                            byte[] writeByte = wString.getBytes();
+                            ftDev.write(writeByte, wString.length());
                         }
 
                     }else if(type==SerialPayload.TYPE_NODEDATA){
