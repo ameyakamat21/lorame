@@ -81,6 +81,8 @@ public class MainActivity extends Activity implements
     Thread mThread;
 
     NetworkManager network = new NetworkManager();
+    LoraState state = new LoraState();
+    int msgCount = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -174,37 +176,36 @@ public class MainActivity extends Activity implements
 
             ftDev.setLatencyTimer((byte)16);
 
-            String writeString = "send\n" + etWrite.getText().toString() +"\n";
-            byte[] writeByte = writeString.getBytes();
-            ftDev.write(writeByte, writeString.length());
+            String id = spinner.getSelectedItem().toString(); //this should be string id
+            //TODO network manager get path to selected node. Send to first node in path
+            String wString = "P "+id+ " "+ etWrite.getText().toString() + "\n";
+            byte[] writeByte = wString.getBytes();
+            ftDev.write(writeByte, wString.length());
             try {
                 Thread.sleep(10);
             } catch (InterruptedException e) {
             }
-            writeString = "recva\n";
-            writeByte = writeString.getBytes();
-            ftDev.write(writeByte, writeString.length());
         }
     }
 
-    public void onClickRecv(View v) {
-        if(ftDev == null) {
-            return;
-        }
-
-        synchronized (ftDev) {
-            if(ftDev.isOpen() == false) {
-                Log.e(TAG, "onClickWrite : Device is not open");
-                return;
-            }
-
-            ftDev.setLatencyTimer((byte)16);
-
-            String writeString = "recva\n";
-            byte[] writeByte = writeString.getBytes();
-            ftDev.write(writeByte, writeString.length());
-        }
-    }
+//    public void onClickRecv(View v) {
+//        if(ftDev == null) {
+//            return;
+//        }
+//
+//        synchronized (ftDev) {
+//            if(ftDev.isOpen() == false) {
+//                Log.e(TAG, "onClickWrite : Device is not open");
+//                return;
+//            }
+//
+//            ftDev.setLatencyTimer((byte)16);
+//
+//            String writeString = "recva\n";
+//            byte[] writeByte = writeString.getBytes();
+//            ftDev.write(writeByte, writeString.length());
+//        }
+//    }
 
     @Override
     protected void onStart() {
@@ -298,16 +299,16 @@ public class MainActivity extends Activity implements
                 .build();
     }
 
-    public void onClickClose(View v) {
-        closeDevice();
-    }
+//    public void onClickClose(View v) {
+//        closeDevice();
+//    }
 
 
-    public void clearTv(View view) {
-
-        tvRead.setText("");
-
-    }
+//    public void clearTv(View view) {
+//
+//        tvRead.setText("");
+//
+//    }
 
     @Override
     public void onDestroy() {
@@ -399,13 +400,13 @@ public class MainActivity extends Activity implements
                             rchar[i] = (char)rbuf[i];
                         }
 
-                        char[] copyr = rchar.clone();
-                        handleInputFromFtDev(copyr);
 
                         mHandler.post(new Runnable() {
                             @Override
                             public void run() {
-                                tvRead.append(String.copyValueOf(rchar,0,mReadSize));
+                                logRead.append(String.copyValueOf(rchar,0,mReadSize));
+                                char[] copyr = rchar.clone();
+                                handleInputFromFtDev(copyr);
                             }
                         });
 
@@ -423,24 +424,28 @@ public class MainActivity extends Activity implements
         spinnerDataAdapter.notifyDataSetChanged();
     }
 
-    private void handleInputFromFtDev(char[] copyr) {
+    private synchronized void handleInputFromFtDev(char[] copyr) {
         String[] input = copyr.toString().split("\\s+");
+//        logRead.append("Recvd " + (msgCount++) + copyr.toString());
+
         if(input.length < 1){
             return;
         }
-        if (input.length < 3){
-            if(input.length < 3){
-                Toast.makeText(MainActivity.this,
-                        "Received message len less than len 3: " + copyr,
-                        Toast.LENGTH_SHORT).show();
-            }
-            return;
-        }
+//        if (input.length < 3){
+//            if(input.length < 3){
+//                Toast.makeText(MainActivity.this,
+//                        "Received message len less than len 3: " + copyr,
+//                        Toast.LENGTH_SHORT).show();
+//            }
+//            return;
+//        }
         switch (input[0]){
             case "A":
                 //Add neighbor
                 this.network.addNeighbor(input[1],input[2]);
                 updateSpinnerList();
+                //we should send something to get the network table of this neighbour
+
                 break;
             case "D":
                 //Delete neighbor
@@ -448,21 +453,32 @@ public class MainActivity extends Activity implements
                 updateSpinnerList();
                 break;
             case "U":
+                logRead.append("WHY ARE WE updating\n");
                 this.network.updateNeighbor(input[1], input[2]);
                 updateSpinnerList();
                 break;
             case "P":
-                //receive
+                //receive a payload
+                //Check node id of final receiver, if me, display message, else forward it
                 break;
 
             case "J":
                 //join
+                //TODO send routing table
                 break;
             case "K":
                 //set status
+                this.state.busySending=false;
                 break;
             case "M":
                 //set my address
+                if (state.id == "") {
+                    state.id = input[1];
+                }
+                if (!network.network.containsKey(input[1])){
+                    network.addNeighbor(input[1]);
+                    //TODO modify add neighbour to add to self
+                }
                 break;
             case "#":
                 //debug
@@ -571,6 +587,7 @@ public class MainActivity extends Activity implements
             break;
         }
 
+
         // TODO : flow ctrl: XOFF/XOM
         // TODO : flow ctrl: XOFF/XOM
         ftDev.setFlowControl(flowCtrlSetting, (byte) 0x0b, (byte) 0x0d);
@@ -585,7 +602,7 @@ public class MainActivity extends Activity implements
     BroadcastReceiver mUsbReceiver = new BroadcastReceiver() {
         public void onReceive(Context context, Intent intent) {
             String action = intent.getAction();
-            if (UsbManager.ACTION_USB_DEVICE_ATTACHED.equals(action)) {
+            if (UsbManager.ACTION_USB_DEVICE_ATTACHED.equals (action)) {
                 // never come here(when attached, go to onNewIntent)
                 openDevice();
             } else if (UsbManager.ACTION_USB_DEVICE_DETACHED.equals(action)) {
