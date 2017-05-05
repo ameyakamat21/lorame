@@ -1,9 +1,12 @@
+package com.ksksue.app.ftdi_uart;
+
 import java.util.LinkedList;
+
 
 public class SerialNodeID {
 		
 	public static int DecodeNodeId(String id) {
-		return Integer.parseUnsignedInt(id, 16);
+		return Integer.parseInt(id, 16);
 	}
 	
 	public static String EncodeNodeId(int id) {

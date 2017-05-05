@@ -40,6 +40,7 @@ public class NetworkManager {
     public List<NodeData> shortestPathHelp(NodeData src,
                                            NodeData dest, List<NodeData> path,
                                            List<NodeData> seen) {
+        List<List<NodeData>> foundPaths = new ArrayList<List<NodeData>>();
         for(NodeData neighbor : src.neighbors) {
             if(seen.contains(neighbor)) {
                 continue;
@@ -49,16 +50,32 @@ public class NetworkManager {
             currPath.addAll(path);
             currPath.add(neighbor);
             if(neighbor.equals(dest)) {
-                return currPath;
+                foundPaths.add(currPath);
+            } else {
+                List<NodeData> foundPath = shortestPathHelp(neighbor, dest, currPath, seen);
+                if(foundPath != null) {
+                    foundPaths.add(foundPath);
+                }
             }
-            List<NodeData> foundPath = shortestPathHelp(neighbor, dest, currPath, seen);
-            if(foundPath != null) {
-                return foundPath;
-            }
-
         }
 
-        return null;
+        if(foundPaths.isEmpty()) {
+            return null;
+        }
+
+        //return smallest path
+        int smalletPathLength = foundPaths.get(0).size();
+        int smallestPathIdx = 0;
+
+        for(int i=0; i<foundPaths.size(); i++) {
+            int currLength = foundPaths.get(i).size();
+            if(currLength < smalletPathLength) {
+                smalletPathLength = currLength;
+                smallestPathIdx = i;
+            }
+        }
+
+        return foundPaths.get(smallestPathIdx);
     }
 
     public boolean addNeighbor(String id){

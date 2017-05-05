@@ -21,6 +21,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.content.Loader;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.View;
@@ -49,6 +50,7 @@ import com.ksksue.app.fpga_fifo.R;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
@@ -72,6 +74,7 @@ public class MainActivity extends Activity implements
     TextView logRead;
     EditText etWrite;
     Button btWrite;
+    Button joinBtn;
     Button debuger;
     Spinner spinner;
     ArrayAdapter<String> spinnerDataAdapter;
@@ -81,6 +84,8 @@ public class MainActivity extends Activity implements
     Thread mThread;
 
     NetworkManager network = new NetworkManager();
+    LoraState state = new LoraState();
+    int msgCount = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -104,7 +109,7 @@ public class MainActivity extends Activity implements
 
         btWrite = (Button) findViewById(R.id.btWrite);
         debuger = (Button) findViewById(R.id.debug);
-
+        joinBtn = (Button) findViewById(R.id.joinBtn);
 
         List<String> list = new ArrayList<String>();
         list.add("Everyone");
@@ -145,19 +150,15 @@ public class MainActivity extends Activity implements
 
     public void onDebug(View v) {
         Toast.makeText(MainActivity.this,
-                "OnClickListener : " +
-                        "\nSpinner : "+ String.valueOf(spinner.getSelectedItem()) +
-                        etWrite.getText().toString(),
+                "State ID: "+ state.id,
                 Toast.LENGTH_SHORT).show();
         logRead.append("Another one!\n");
-        spinnerDataAdapter.add("new one!");
-        spinnerDataAdapter.notifyDataSetChanged();
     }
 
     public void onJoin(View v) {
-        Toast.makeText(MainActivity.this,
-                "TODO Join message",
-                Toast.LENGTH_SHORT).show();
+        String wString = "J\n";
+        byte[] writeByte = wString.getBytes();
+        ftDev.write(writeByte, wString.length());
 
     }
 
@@ -174,37 +175,41 @@ public class MainActivity extends Activity implements
 
             ftDev.setLatencyTimer((byte)16);
 
-            String writeString = "send\n" + etWrite.getText().toString() +"\n";
-            byte[] writeByte = writeString.getBytes();
-            ftDev.write(writeByte, writeString.length());
+            String id = spinner.getSelectedItem().toString(); //this should be string id
+            //TODO network manager get path to selected node. Send to first node in path
+            ForwardMessage fm = new ForwardMessage();
+            fm.ids = new LinkedList<>();
+            fm.message = etWrite.getText().toString();
+            SerialPayload sp = new SerialPayload();
+            sp.putForwardMessage(fm);
+            String wString = "S " +id+ " "+ sp.toString() + "\n";
+            byte[] writeByte = wString.getBytes();
+            ftDev.write(writeByte, wString.length());
             try {
                 Thread.sleep(10);
             } catch (InterruptedException e) {
             }
-            writeString = "recva\n";
-            writeByte = writeString.getBytes();
-            ftDev.write(writeByte, writeString.length());
         }
     }
 
-    public void onClickRecv(View v) {
-        if(ftDev == null) {
-            return;
-        }
-
-        synchronized (ftDev) {
-            if(ftDev.isOpen() == false) {
-                Log.e(TAG, "onClickWrite : Device is not open");
-                return;
-            }
-
-            ftDev.setLatencyTimer((byte)16);
-
-            String writeString = "recva\n";
-            byte[] writeByte = writeString.getBytes();
-            ftDev.write(writeByte, writeString.length());
-        }
-    }
+//    public void onClickRecv(View v) {
+//        if(ftDev == null) {
+//            return;
+//        }
+//
+//        synchronized (ftDev) {
+//            if(ftDev.isOpen() == false) {
+//                Log.e(TAG, "onClickWrite : Device is not open");
+//                return;
+//            }
+//
+//            ftDev.setLatencyTimer((byte)16);
+//
+//            String writeString = "recva\n";
+//            byte[] writeByte = writeString.getBytes();
+//            ftDev.write(writeByte, writeString.length());
+//        }
+//    }
 
     @Override
     protected void onStart() {
@@ -298,16 +303,16 @@ public class MainActivity extends Activity implements
                 .build();
     }
 
-    public void onClickClose(View v) {
-        closeDevice();
-    }
+//    public void onClickClose(View v) {
+//        closeDevice();
+//    }
 
 
-    public void clearTv(View view) {
-
-        tvRead.setText("");
-
-    }
+//    public void clearTv(View view) {
+//
+//        tvRead.setText("");
+//
+//    }
 
     @Override
     public void onDestroy() {
@@ -374,6 +379,7 @@ public class MainActivity extends Activity implements
         public void run() {
             int i;
             int readSize;
+            StringBuilder sb = new StringBuilder(READBUF_SIZE);
             mThreadIsStopped = false;
             while(true) {
                 if(mThreadIsStopped) {
@@ -392,28 +398,42 @@ public class MainActivity extends Activity implements
                         if(mReadSize > READBUF_SIZE) {
                             mReadSize = READBUF_SIZE;
                         }
-                        ftDev.read(rbuf,mReadSize);
+                        int count = ftDev.read(rbuf,mReadSize);
 
                         // cannot use System.arraycopy
-                        for(i=0; i<mReadSize; i++) {
+                        for(i=0; i<count; i++) {
                             rchar[i] = (char)rbuf[i];
+                            sb.append((char)rbuf[i]);
+                            if ((char)rbuf[i]=='\n'){
+                                mHandler.post(new UartPoster(sb.toString()));
+                                sb = new StringBuilder(READBUF_SIZE);
+                            }
                         }
 
-                        char[] copyr = rchar.clone();
-                        handleInputFromFtDev(copyr);
+//                        for(i=0; i<mReadSize; i++) {
+//                            rchar[i] = (char)rbuf[i];
+//                        }
 
-                        mHandler.post(new Runnable() {
-                            @Override
-                            public void run() {
-                                tvRead.append(String.copyValueOf(rchar,0,mReadSize));
-                            }
-                        });
+
 
                     } // end of if(readSize>0)
                 } // end of synchronized
             }
         }
     };
+
+    public class UartPoster implements Runnable {
+        String toSend = "";
+        public UartPoster(String toSend){
+            this.toSend = toSend;
+        }
+        @Override
+        public void run() {
+            logRead.append(toSend);
+            handleInputFromFtDev(toSend);
+
+        }
+    }
 
     private void updateSpinnerList(){
         List<String> ids = new ArrayList<String>(this.network.network.keySet());
@@ -423,24 +443,30 @@ public class MainActivity extends Activity implements
         spinnerDataAdapter.notifyDataSetChanged();
     }
 
-    private void handleInputFromFtDev(char[] copyr) {
-        String[] input = copyr.toString().split("\\s+");
+    private synchronized void handleInputFromFtDev(String copyr) {
+        String[] input = copyr.split("\\s+");
+        logRead.append(">> " + input.length + " " + input[0] + "\n");
+//        logRead.append("Recvd " + (msgCount++) + copyr.toString());
+
         if(input.length < 1){
             return;
         }
-        if (input.length < 3){
-            if(input.length < 3){
-                Toast.makeText(MainActivity.this,
-                        "Received message len less than len 3: " + copyr,
-                        Toast.LENGTH_SHORT).show();
-            }
-            return;
-        }
+//        if (input.length < 3){
+//            if(input.length < 3){
+//                Toast.makeText(MainActivity.this,
+//                        "Received message len less than len 3: " + copyr,
+//                        Toast.LENGTH_SHORT).show();
+//            }
+//            return;
+//        }
         switch (input[0]){
             case "A":
                 //Add neighbor
-                this.network.addNeighbor(input[1],input[2]);
+                tvRead.append(copyr.toString());
+                this.network.addNeighbor(input[1]);
                 updateSpinnerList();
+                //we should send something to get the network table of this neighbour
+
                 break;
             case "D":
                 //Delete neighbor
@@ -448,25 +474,49 @@ public class MainActivity extends Activity implements
                 updateSpinnerList();
                 break;
             case "U":
+                logRead.append("WHY ARE WE updating\n");
                 this.network.updateNeighbor(input[1], input[2]);
                 updateSpinnerList();
                 break;
             case "P":
-                //receive
+                tvRead.append(copyr.toString());
+                //receive a payload
+                //Check node id of final receiver, if me, display message, else forward it
                 break;
-
+            case "S":
+                break;
+            case "R":
+                if (input.length<3){
+                    tvRead.append("Received R of len less than 3");
+                }else{
+                    String payload = input[2];
+                    SerialPayload sp = new SerialPayload(payload);
+                    ForwardMessage fm = sp.getForwardMessage();
+                    tvRead.append(input[1] + ": " + fm.message + "\n");
+                }
+                break;
             case "J":
                 //join
+                //TODO send routing table
                 break;
             case "K":
                 //set status
+                tvRead.append(copyr.toString());
+                this.state.busySending=false;
                 break;
             case "M":
                 //set my address
+                tvRead.append(copyr.toString());
+                if (state.id == null) {
+                    state.id = input[1];
+                }
+                if (!network.network.containsKey(input[1])){
+                    network.addNeighbor(input[1]);
+                    //TODO modify add neighbour to add to self
+                }
                 break;
             case "#":
                 //debug
-                logRead.append(input[1] + "\n");
                 break;
 
 
@@ -485,10 +535,12 @@ public class MainActivity extends Activity implements
         if(on) {
 //            btOpen.setEnabled(false);
             btWrite.setEnabled(true);
+            joinBtn.setEnabled(true);
 //            btClose.setEnabled(true);
         } else {
 //            btOpen.setEnabled(true);
             btWrite.setEnabled(false);
+            joinBtn.setEnabled(false);
 //            btClose.setEnabled(false);
         }
     }
@@ -571,6 +623,7 @@ public class MainActivity extends Activity implements
             break;
         }
 
+
         // TODO : flow ctrl: XOFF/XOM
         // TODO : flow ctrl: XOFF/XOM
         ftDev.setFlowControl(flowCtrlSetting, (byte) 0x0b, (byte) 0x0d);
@@ -585,7 +638,7 @@ public class MainActivity extends Activity implements
     BroadcastReceiver mUsbReceiver = new BroadcastReceiver() {
         public void onReceive(Context context, Intent intent) {
             String action = intent.getAction();
-            if (UsbManager.ACTION_USB_DEVICE_ATTACHED.equals(action)) {
+            if (UsbManager.ACTION_USB_DEVICE_ATTACHED.equals (action)) {
                 // never come here(when attached, go to onNewIntent)
                 openDevice();
             } else if (UsbManager.ACTION_USB_DEVICE_DETACHED.equals(action)) {
