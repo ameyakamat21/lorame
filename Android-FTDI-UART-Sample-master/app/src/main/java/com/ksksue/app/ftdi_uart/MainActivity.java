@@ -21,6 +21,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.content.ContextCompat;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -68,11 +69,9 @@ public class MainActivity extends Activity implements
     private String lorabugDebugMsgs;
 
     TextView tvRead;
+    TextView logRead;
     EditText etWrite;
-    Button btOpen;
     Button btWrite;
-    Button btClose;
-    Button btRecv;
     Button debuger;
     Spinner spinner;
     ArrayAdapter<String> spinnerDataAdapter;
@@ -96,12 +95,14 @@ public class MainActivity extends Activity implements
                 .addApi(AppIndex.API).build();
 
         tvRead = (TextView) findViewById(R.id.tvRead);
+        tvRead.setMovementMethod(new ScrollingMovementMethod());
+
+        logRead = (TextView) findViewById(R.id.logRead);
+        logRead.setMovementMethod(new ScrollingMovementMethod());
+
         etWrite = (EditText) findViewById(R.id.etWrite);
 
-        btOpen = (Button) findViewById(R.id.btOpen);
         btWrite = (Button) findViewById(R.id.btWrite);
-        btRecv = (Button) findViewById(R.id.btRecv);
-        btClose = (Button) findViewById(R.id.btClose);
         debuger = (Button) findViewById(R.id.debug);
 
 
@@ -132,8 +133,14 @@ public class MainActivity extends Activity implements
         spinner.setAdapter(dataAdapter);
     }
 
-    public void onClickOpen(View v) {
-        openDevice();
+    public void onShowMessages(View v) {
+        logRead.setVisibility(View.INVISIBLE);
+        tvRead.setVisibility(View.VISIBLE);
+    }
+
+    public void onShowLog(View v) {
+        logRead.setVisibility(View.VISIBLE);
+        tvRead.setVisibility(View.INVISIBLE);
     }
 
     public void onDebug(View v) {
@@ -142,9 +149,16 @@ public class MainActivity extends Activity implements
                         "\nSpinner : "+ String.valueOf(spinner.getSelectedItem()) +
                         etWrite.getText().toString(),
                 Toast.LENGTH_SHORT).show();
-
+        logRead.append("Another one!\n");
         spinnerDataAdapter.add("new one!");
         spinnerDataAdapter.notifyDataSetChanged();
+    }
+
+    public void onJoin(View v) {
+        Toast.makeText(MainActivity.this,
+                "TODO Join message",
+                Toast.LENGTH_SHORT).show();
+
     }
 
     public void onClickWrite(View v) {
@@ -471,13 +485,13 @@ public class MainActivity extends Activity implements
 
     private void updateView(boolean on) {
         if(on) {
-            btOpen.setEnabled(false);
+//            btOpen.setEnabled(false);
             btWrite.setEnabled(true);
-            btClose.setEnabled(true);
+//            btClose.setEnabled(true);
         } else {
-            btOpen.setEnabled(true);
+//            btOpen.setEnabled(true);
             btWrite.setEnabled(false);
-            btClose.setEnabled(false);
+//            btClose.setEnabled(false);
         }
     }
 

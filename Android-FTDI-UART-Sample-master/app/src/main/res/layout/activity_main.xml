@@ -8,6 +8,133 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.ksksue.app.ftdi_uart.MainActivity" >
 
+
+
+    <Button
+        android:id="@+id/joinBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join"
+        android:onClick="onJoin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+
+    <Button
+        android:id="@+id/openMapBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show map"
+        android:onClick="openMapCallback"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/joinBtn"
+        android:layout_marginStart="1dp"/>
+
+    <Button
+        android:id="@+id/get_location_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get location"
+        android:onClick="getLocationBtnCallback"
+        android:layout_toEndOf="@+id/openMapBtn"
+        android:layout_marginStart="1dp" />
+
+    <Button
+        android:id="@+id/debug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onDebug"
+        android:text="Dbg"
+        android:layout_below="@+id/get_location_btn"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/get_location_btn"/>
+
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/clearTv"-->
+        <!--android:text="Clear"-->
+        <!--android:onClick="clearTv"-->
+        <!--android:layout_below="@id/get_location_btn"-->
+        <!--android:layout_toRightOf="@id/showMessages" />-->
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/showMessages"
+        android:text="Messages"
+        android:onClick="onShowMessages"
+        android:layout_below="@id/get_location_btn" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/showLog"
+        android:text="Log"
+        android:onClick="onShowLog"
+        android:layout_below="@id/get_location_btn"
+        android:layout_alignParentRight="true"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/btRecv"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:onClick="onClickRecv"-->
+        <!--android:text="Recv"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_toEndOf="@+id/get_location_btn" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btOpen"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:onClick="onClickOpen"-->
+        <!--android:text="Open" />-->
+
+
+
+
+    <!--<Button-->
+        <!--android:id="@+id/btClose"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:onClick="onClickClose"-->
+        <!--android:text="Close"-->
+        <!--android:layout_alignBaseline="@+id/btOpen"-->
+        <!--android:layout_alignBottom="@+id/btOpen"-->
+        <!--android:layout_toEndOf="@+id/btOpen" />-->
+
+
+    <TextView
+        android:id="@+id/tvRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Messages: "
+        android:layout_below="@+id/showLog"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignEnd="@+id/etWrite"
+        android:layout_above="@+id/etWrite"
+        android:scrollbars="vertical"/>
+
+
+    <TextView
+        android:id="@+id/logRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log: "
+        android:layout_below="@+id/showLog"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignEnd="@+id/etWrite"
+        android:layout_above="@+id/etWrite"
+        android:visibility="invisible"/>
+
+
     <EditText
         android:id="@+id/etWrite"
         android:layout_width="wrap_content"
@@ -27,89 +154,13 @@
         android:layout_alignParentEnd="true"
         android:layout_toEndOf="@+id/spinner" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/clearTv"
-        android:text="Clear"
-        android:onClick="clearTv"
-        android:layout_alignBaseline="@+id/btClose"
-        android:layout_alignBottom="@+id/btClose"
-        android:layout_toEndOf="@+id/btClose" />
-
-    <Button
-        android:id="@+id/btRecv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="onClickRecv"
-        android:text="Recv"
-        android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/get_location_btn" />
-
-    <Button
-        android:id="@+id/btOpen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:onClick="onClickOpen"
-        android:text="Open" />
-
-    <Button
-        android:id="@+id/get_location_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Get location"
-        android:onClick="getLocationBtnCallback"
-        android:layout_below="@+id/clearTv"
-        android:layout_toEndOf="@+id/openMapBtn"
-        android:layout_marginStart="27dp" />
-
-    <Button
-        android:id="@+id/openMapBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Show map"
-        android:onClick="openMapCallback"
-        android:layout_below="@+id/btOpen"
-        android:layout_toStartOf="@+id/clearTv" />
-
-    <Button
-        android:id="@+id/btClose"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="onClickClose"
-        android:text="Close"
-        android:layout_alignBaseline="@+id/btOpen"
-        android:layout_alignBottom="@+id/btOpen"
-        android:layout_toEndOf="@+id/btOpen" />
-
-    <Button
-        android:id="@+id/debug"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="onDebug"
-        android:text="Debug"
-        android:layout_below="@+id/get_location_btn"
-        android:layout_alignStart="@+id/get_location_btn" />
-
-    <TextView
-        android:id="@+id/tvRead"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Messages: "
-        android:layout_below="@+id/openMapBtn"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignEnd="@+id/etWrite"
-        android:layout_above="@+id/etWrite" />
-
     <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_alignEnd="@+id/clearTv"
-        android:id="@+id/spinner"></Spinner>
+        android:id="@+id/spinner"
+        android:layout_alignEnd="@+id/openMapBtn"/>
 
 
 </RelativeLayout>
