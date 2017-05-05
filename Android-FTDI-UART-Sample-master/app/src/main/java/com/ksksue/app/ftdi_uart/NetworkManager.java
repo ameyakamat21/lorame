@@ -1,5 +1,7 @@
 package com.ksksue.app.ftdi_uart;
 
+import android.util.Log;
+
 import org.w3c.dom.Node;
 
 import java.util.ArrayList;
@@ -31,6 +33,7 @@ public class NetworkManager {
         List<NodeData> spath = getShortestPath(s,d);
         List<String> spath_ids = new ArrayList<>();
         if(spath==null){
+            Log.i("LORAME", "getShortestPath: djikstra null");
             return  spath_ids;
         }
         for (NodeData nd: spath){
@@ -68,6 +71,7 @@ public class NetworkManager {
             currPath.add(neighbor);
             if(neighbor.equals(dest)) {
                 foundPaths.add(currPath);
+                return currPath;
             } else {
                 List<NodeData> foundPath = shortestPathHelp(neighbor, dest, currPath, seen);
                 if(foundPath != null) {
