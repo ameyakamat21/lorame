@@ -2,7 +2,10 @@ package com.ksksue.app.ftdi_uart;
 
 import org.w3c.dom.Node;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Hashtable;
+import java.util.List;
 
 /**
  * Created by aruln on 4/30/2017.
@@ -19,6 +22,43 @@ public class NetworkManager {
     public boolean addNeighbor(String id,NodeData d){
         this.network.put(id,d);
         return true;
+    }
+
+    public List<NodeData> getShortestPath(NodeData src, NodeData dest) {
+        if(src.equals(dest)) {
+            List<NodeData> returnList = new ArrayList<NodeData>();
+            returnList.add(src);
+            return returnList;
+        }
+        List<NodeData> path = new ArrayList<NodeData>();
+        path.add(src);
+        List<NodeData> seen = new ArrayList<NodeData>();
+        seen.add(src);
+        return shortestPathHelp(src, dest, path, seen);
+    }
+
+    public List<NodeData> shortestPathHelp(NodeData src,
+                                           NodeData dest, List<NodeData> path,
+                                           List<NodeData> seen) {
+        for(NodeData neighbor : src.neighbors) {
+            if(seen.contains(neighbor)) {
+                continue;
+            }
+            seen.add(neighbor);
+            List<NodeData> currPath = new ArrayList<NodeData>();
+            currPath.addAll(path);
+            currPath.add(neighbor);
+            if(neighbor.equals(dest)) {
+                return currPath;
+            }
+            List<NodeData> foundPath = shortestPathHelp(neighbor, dest, currPath, seen);
+            if(foundPath != null) {
+                return foundPath;
+            }
+
+        }
+
+        return null;
     }
 
     public boolean addNeighbor(String id){

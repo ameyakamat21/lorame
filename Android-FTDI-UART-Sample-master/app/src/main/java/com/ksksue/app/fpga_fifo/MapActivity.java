@@ -49,6 +49,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
         mMap = googleMap;
         if(selfLocation == null) {
             return;
+
         }
 
 ///        LatLng bakerHall = new LatLng(40.441997, -79.945389);
