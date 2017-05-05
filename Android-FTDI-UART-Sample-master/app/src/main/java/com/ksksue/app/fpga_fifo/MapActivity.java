@@ -47,6 +47,9 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
+        if(selfLocation == null) {
+            return;
+        }
 
 ///        LatLng bakerHall = new LatLng(40.441997, -79.945389);
         LatLng selfLatLng = new LatLng(selfLocation.getLatitude(),
