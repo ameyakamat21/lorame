@@ -66,7 +66,7 @@ public class MainActivity extends Activity implements
     int mReadSize=0;
     private GoogleApiClient mGoogleApiClient;
     private double currLatitude, currLongitude;
-    private String lorabugDebugMsgs;
+    
 
     TextView tvRead;
     TextView logRead;
@@ -451,12 +451,10 @@ public class MainActivity extends Activity implements
                 this.network.updateNeighbor(input[1], input[2]);
                 updateSpinnerList();
                 break;
-            case "R":
+            case "P":
                 //receive
                 break;
-            case "S":
-                //send
-                break;
+
             case "J":
                 //join
                 break;
@@ -468,7 +466,7 @@ public class MainActivity extends Activity implements
                 break;
             case "#":
                 //debug
-                lorabugDebugMsgs += input[1] + "\n";
+                logRead.append(input[1] + "\n");
                 break;
 
 

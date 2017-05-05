@@ -3173,10 +3173,7 @@ containing a value of this type.
         public static final int blurred_background_image_view=0x7f0d00ae;
         public static final int book_now=0x7f0d005f;
         public static final int bottom=0x7f0d0054;
-        public static final int btClose=0x7f0d00a4;
-        public static final int btOpen=0x7f0d00a7;
-        public static final int btRecv=0x7f0d00a5;
-        public static final int btWrite=0x7f0d00a1;
+        public static final int btWrite=0x7f0d00a9;
         public static final int button=0x7f0d00c4;
         public static final int buttonPanel=0x7f0d007a;
         public static final int button_0=0x7f0d00be;
@@ -3206,7 +3203,6 @@ containing a value of this type.
         public static final int checkbox=0x7f0d0088;
         public static final int chronometer=0x7f0d00f2;
         public static final int classic=0x7f0d0069;
-        public static final int clearTv=0x7f0d00a3;
         public static final int collapseActionView=0x7f0d0041;
         public static final int contact=0x7f0d0035;
         public static final int container_all=0x7f0d00c5;
@@ -3218,7 +3214,7 @@ containing a value of this type.
         public static final int customPanel=0x7f0d0085;
         public static final int dark=0x7f0d0029;
         public static final int date=0x7f0d0045;
-        public static final int debug=0x7f0d00a9;
+        public static final int debug=0x7f0d00a3;
         public static final int decor_content_parent=0x7f0d008f;
         public static final int default_activity_button=0x7f0d0076;
         public static final int demote_common_words=0x7f0d004a;
@@ -3231,11 +3227,11 @@ containing a value of this type.
         public static final int end=0x7f0d0039;
         public static final int end_padder=0x7f0d00f5;
         public static final int end_text=0x7f0d00ba;
-        public static final int etWrite=0x7f0d00a0;
+        public static final int etWrite=0x7f0d00a7;
         public static final int expand_activities_button=0x7f0d0074;
         public static final int expanded_controller_layout=0x7f0d00ac;
         public static final int expanded_menu=0x7f0d0087;
-        public static final int get_location_btn=0x7f0d00a6;
+        public static final int get_location_btn=0x7f0d00a2;
         public static final int google_wallet_classic=0x7f0d006a;
         public static final int google_wallet_grayscale=0x7f0d006b;
         public static final int google_wallet_monochrome=0x7f0d006c;
@@ -3260,6 +3256,7 @@ containing a value of this type.
         public static final int intent_data=0x7f0d002e;
         public static final int intent_data_id=0x7f0d002f;
         public static final int intent_extra_data=0x7f0d0030;
+        public static final int joinBtn=0x7f0d00a0;
         public static final int large_icon_uri=0x7f0d0031;
         public static final int light=0x7f0d002a;
         public static final int line1=0x7f0d00f0;
@@ -3269,6 +3266,7 @@ containing a value of this type.
         public static final int live_stream_indicator=0x7f0d00bb;
         public static final int live_stream_seek_bar=0x7f0d00bd;
         public static final int loading_indicator=0x7f0d00b6;
+        public static final int logRead=0x7f0d00a8;
         public static final int logo_only=0x7f0d0065;
         public static final int map=0x7f0d00ab;
         public static final int match_global_nicknames=0x7f0d004d;
@@ -3306,7 +3304,7 @@ containing a value of this type.
         public static final int normal=0x7f0d0018;
         public static final int omnibox_title_section=0x7f0d004e;
         public static final int omnibox_url_section=0x7f0d004f;
-        public static final int openMapBtn=0x7f0d00a8;
+        public static final int openMapBtn=0x7f0d00a1;
         public static final int parentPanel=0x7f0d007c;
         public static final int place_autocomplete_clear_button=0x7f0d00f8;
         public static final int place_autocomplete_powered_by_google=0x7f0d00fa;
@@ -3346,10 +3344,12 @@ containing a value of this type.
         public static final int shortcut=0x7f0d0089;
         public static final int showCustom=0x7f0d001d;
         public static final int showHome=0x7f0d001e;
+        public static final int showLog=0x7f0d00a5;
+        public static final int showMessages=0x7f0d00a4;
         public static final int showTitle=0x7f0d001f;
         public static final int slide=0x7f0d0028;
         public static final int spacer=0x7f0d007b;
-        public static final int spinner=0x7f0d00a2;
+        public static final int spinner=0x7f0d00aa;
         public static final int split_action_bar=0x7f0d0015;
         public static final int src_atop=0x7f0d0024;
         public static final int src_in=0x7f0d0025;
@@ -3381,7 +3381,7 @@ containing a value of this type.
         public static final int toolbar=0x7f0d00af;
         public static final int top=0x7f0d0055;
         public static final int topPanel=0x7f0d007d;
-        public static final int tvRead=0x7f0d00aa;
+        public static final int tvRead=0x7f0d00a6;
         public static final int up=0x7f0d0016;
         public static final int url=0x7f0d0049;
         public static final int useLogo=0x7f0d0020;

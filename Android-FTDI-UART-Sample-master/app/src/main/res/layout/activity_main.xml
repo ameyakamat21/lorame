@@ -132,7 +132,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignEnd="@+id/etWrite"
         android:layout_above="@+id/etWrite"
-        android:visibility="invisible"/>
+        android:visibility="invisible"
+        android:gravity="bottom"/>
 
 
     <EditText
