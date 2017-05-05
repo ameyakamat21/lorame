@@ -2,6 +2,8 @@ package com.ksksue.app.ftdi_uart;
 
 import org.w3c.dom.Node;
 import android.location.Location;
+
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -13,6 +15,10 @@ public class NodeData {
     public String rssi;
     public List<NodeData> neighbors;
     public Location location;
+
+    public NodeData() {
+        neighbors = new ArrayList<NodeData>();
+    }
 
     @Override
     public boolean equals(Object ob) {
