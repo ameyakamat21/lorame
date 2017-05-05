@@ -65,6 +65,7 @@ public class MainActivity extends Activity implements
     int mReadSize=0;
     private GoogleApiClient mGoogleApiClient;
     private double currLatitude, currLongitude;
+    private String lorabugDebugMsgs;
 
     TextView tvRead;
     EditText etWrite;
@@ -422,16 +423,40 @@ public class MainActivity extends Activity implements
             return;
         }
         switch (input[0]){
-            case "a":
+            case "A":
                 //Add neighbor
                 this.network.addNeighbor(input[1],input[2]);
                 updateSpinnerList();
                 break;
-            case "d":
+            case "D":
                 //Delete neighbor
                 this.network.deleteNeighbor(input[1]);
                 updateSpinnerList();
                 break;
+            case "U":
+                this.network.updateNeighbor(input[1], input[2]);
+                updateSpinnerList();
+                break;
+            case "R":
+                //receive
+                break;
+            case "S":
+                //send
+                break;
+            case "J":
+                //join
+                break;
+            case "K":
+                //set status
+                break;
+            case "M":
+                //set my address
+                break;
+            case "#":
+                //debug
+                lorabugDebugMsgs += input[1] + "\n";
+                break;
+
 
         }
     }

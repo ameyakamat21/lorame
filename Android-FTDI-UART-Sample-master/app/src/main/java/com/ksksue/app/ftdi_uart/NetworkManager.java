@@ -37,9 +37,13 @@ public class NetworkManager {
 
 
 
-    public boolean updateNeighbor(String rssi,String id){
-        this.network.get(id).rssi = rssi;
-        return  true;
+    public boolean updateNeighbor(String id, String rssi){
+        if(this.network.containsKey(id)) {
+            this.network.get(id).rssi = rssi;
+            return true;
+        }
+
+        return false;
     }
 
     public boolean deleteNeighbor(String id){
