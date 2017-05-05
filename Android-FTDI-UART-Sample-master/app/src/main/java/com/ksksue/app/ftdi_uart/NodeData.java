@@ -10,5 +10,6 @@ public class NodeData {
     public String id;
     public String rssi;
     public List<NodeData> neighbors;
-    public String gps;
+    public double gpslat;
+    public double gpslong;
 }
