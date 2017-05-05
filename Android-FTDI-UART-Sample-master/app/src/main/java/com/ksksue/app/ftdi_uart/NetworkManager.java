@@ -24,7 +24,23 @@ public class NetworkManager {
         return true;
     }
 
-    public static List<NodeData> getShortestPath(NodeData src, NodeData dest) {
+
+    public List<String> getShortestPath(String src, String dest){
+        NodeData s = this.network.get(src);
+        NodeData d = this.network.get(dest);
+        List<NodeData> spath = getShortestPath(s,d);
+        List<String> spath_ids = new ArrayList<>();
+        if(spath==null){
+            return  spath_ids;
+        }
+        for (NodeData nd: spath){
+            spath_ids.add(nd.id);
+        }
+        return  spath_ids;
+    }
+
+    public List<NodeData> getShortestPath(NodeData src, NodeData dest) {
+
         if(src.equals(dest)) {
             List<NodeData> returnList = new ArrayList<NodeData>();
             returnList.add(src);
@@ -42,6 +58,7 @@ public class NetworkManager {
                                            List<NodeData> seen) {
         List<List<NodeData>> foundPaths = new ArrayList<List<NodeData>>();
         for(NodeData neighbor : src.neighbors) {
+
             if(seen.contains(neighbor)) {
                 continue;
             }

@@ -13,7 +13,7 @@ public class SerialNodeID {
 	}
 	
 	public static String EncodeNodeId(int id) {
-		return String.format("%X", id);
+		return String.format("%08X", id);
 	}
 	
 	public static NodeData GenNodeData(String id, double lat, double lon) {

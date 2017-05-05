@@ -122,7 +122,7 @@ public class SerialPayload {
 			dictionary[index] = buffer.getInt();
 
 			NodeData d = new NodeData();
-			d.id = String.format("%X", dictionary[index]);
+			d.id = String.format(PRINTF_FORMAT_NODE_ID, dictionary[index]);
 			d.neighbors = new LinkedList<NodeData>();
 			d.location = new Location("");
 			d.rssi = "0";

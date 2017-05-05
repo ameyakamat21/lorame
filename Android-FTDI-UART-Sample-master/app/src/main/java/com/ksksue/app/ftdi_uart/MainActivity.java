@@ -178,7 +178,11 @@ public class MainActivity extends Activity implements
             String id = spinner.getSelectedItem().toString(); //this should be string id
             //TODO network manager get path to selected node. Send to first node in path
             ForwardMessage fm = new ForwardMessage();
-            fm.ids = new LinkedList<>();
+            List<String> path = this.network.getShortestPath(this.state.id,id);
+            if(path.size()==0){
+                logRead.append("No path found to this node\n");
+            }
+            fm.ids = path;
             fm.message = etWrite.getText().toString();
             SerialPayload sp = new SerialPayload();
             sp.putForwardMessage(fm);
@@ -340,9 +344,6 @@ public class MainActivity extends Activity implements
                     new Thread(mLoop).start();
                 }
                 //Try to send join?
-                String wString = "J\n";
-                byte[] writeByte = wString.getBytes();
-                ftDev.write(writeByte, wString.length());
                 return;
             }
         }
@@ -444,13 +445,12 @@ public class MainActivity extends Activity implements
         Collections.sort(ids);
         spinnerDataAdapter.clear();
         spinnerDataAdapter.addAll(ids);
+        spinnerDataAdapter.remove(this.state.id);
         spinnerDataAdapter.notifyDataSetChanged();
     }
 
     private synchronized void handleInputFromFtDev(String copyr) {
         String[] input = copyr.split("\\s+");
-        logRead.append(">> " + input.length + " " + input[0] + "\n");
-//        logRead.append("Recvd " + (msgCount++) + copyr.toString());
 
         if(input.length < 1){
             return;
@@ -468,6 +468,9 @@ public class MainActivity extends Activity implements
                 //Add neighbor
                 tvRead.append(copyr.toString());
                 this.network.addNeighbor(input[1]);
+                if(this.state.id==null){
+                    this.state.pendingNeighbors.add(input[1]);
+                }
                 updateSpinnerList();
                 //we should send something to get the network table of this neighbour
 
@@ -499,12 +502,18 @@ public class MainActivity extends Activity implements
                     if(type==SerialPayload.TYPE_FORWARD){
                         //check if you are the final receipient
                         ForwardMessage fm = sp.getForwardMessage();
-                        if(fm.ids.get(fm.ids.size()-1)==this.state.id){
+                        logRead.append("Printing forwarding list in order\n");
+                        for(String id: fm.ids){
+                            logRead.append(">"+id+"<\n");
+                        }
+
+                        logRead.append(">>"+this.state.id+"<\n");
+                        if(fm.ids.get(fm.ids.size()-1).equals(this.state.id)){
                             tvRead.append(input[1] + ": " + fm.message + "\n");
                         }else{
                             int index = fm.ids.lastIndexOf(this.state.id);
                             String wString = "S " + fm.ids.get(index+1)+ " "+ sp.toString() + "\n";
-                            logRead.append("Forwarded message to "+ fm.ids.get(index+1));
+                            logRead.append("Forwarded message to "+ fm.ids.get(index+1) + "> " + index);
                         }
 
                     }else if(type==SerialPayload.TYPE_NODEDATA){
@@ -530,8 +539,13 @@ public class MainActivity extends Activity implements
                     state.id = input[1];
                 }
                 if (!network.network.containsKey(input[1])){
-                    network.addNeighbor(input[1]);
-                    //TODO modify add neighbour to add to self
+                    NodeData nd = new NodeData();
+                    nd.id = input[1];
+                    for(String pn:this.state.pendingNeighbors){
+                        nd.neighbors.add(this.network.network.get(pn));
+                    }
+                    this.state.pendingNeighbors.clear();
+                    network.addNeighbor(input[1],nd);
                 }
                 break;
             case "#":
