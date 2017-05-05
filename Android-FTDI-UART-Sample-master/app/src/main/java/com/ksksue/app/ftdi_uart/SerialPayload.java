@@ -1,6 +1,3 @@
-package com.ksksue.app.ftdi_uart;
-
-import com.ksksue.app.ftdi_uart.NodeData;
 import java.nio.ByteBuffer;
 import java.util.HashMap;
 import java.util.HashSet;
