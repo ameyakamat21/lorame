@@ -1,7 +1,7 @@
 package com.ksksue.app.ftdi_uart;
 
 import org.w3c.dom.Node;
-
+import android.location.Location;
 import java.util.List;
 
 /**
@@ -12,7 +12,7 @@ public class NodeData {
     public String id;
     public String rssi;
     public List<NodeData> neighbors;
-    public String gps;
+    public Location location;
 
     @Override
     public boolean equals(Object ob) {

@@ -1,3 +1,6 @@
+package com.ksksue.app.ftdi_uart;
+import android.location.Location;
+
 import java.nio.ByteBuffer;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -121,7 +124,7 @@ public class SerialPayload {
 			NodeData d = new NodeData();
 			d.id = String.format("%X", dictionary[index]);
 			d.neighbors = new LinkedList<NodeData>();
-			d.location = new Location();
+			d.location = new Location("");
 			d.rssi = "0";
 			nodeDataMap.put(dictionary[index], d);
 			nodeData.add(d);

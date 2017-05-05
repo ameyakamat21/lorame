@@ -1,13 +1,15 @@
-import java.nio.ByteBuffer;
+
 package com.ksksue.app.ftdi_uart;
 
+import java.nio.ByteBuffer;
 import java.util.LinkedList;
 import java.util.List;
+import android.location.Location;
 
 public class SerialNodeID {
 		
 	public static int DecodeNodeId(String id) {
-		return Integer.parseUnsignedInt(id, 16);
+		return Integer.parseInt(id, 16);
 	}
 	
 	public static String EncodeNodeId(int id) {
@@ -17,7 +19,7 @@ public class SerialNodeID {
 	public static NodeData GenNodeData(String id, double lat, double lon) {
 		NodeData d = new NodeData();
 		d.id = id;
-		d.location = new Location();
+		d.location = new Location("");
 		d.location.setLatitude(lat);
 		d.location.setLongitude(lon);
 		d.neighbors = new LinkedList<NodeData>();

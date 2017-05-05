@@ -339,6 +339,10 @@ public class MainActivity extends Activity implements
                     ftDev.restartInTask();
                     new Thread(mLoop).start();
                 }
+                //Try to send join?
+                String wString = "J\n";
+                byte[] writeByte = wString.getBytes();
+                ftDev.write(writeByte, wString.length());
                 return;
             }
         }
@@ -491,8 +495,23 @@ public class MainActivity extends Activity implements
                 }else{
                     String payload = input[2];
                     SerialPayload sp = new SerialPayload(payload);
-                    ForwardMessage fm = sp.getForwardMessage();
-                    tvRead.append(input[1] + ": " + fm.message + "\n");
+                    byte type = sp.getType();
+                    if(type==SerialPayload.TYPE_FORWARD){
+                        //check if you are the final receipient
+                        ForwardMessage fm = sp.getForwardMessage();
+                        if(fm.ids.get(fm.ids.size()-1)==this.state.id){
+                            tvRead.append(input[1] + ": " + fm.message + "\n");
+                        }else{
+                            int index = fm.ids.lastIndexOf(this.state.id);
+                            String wString = "S " + fm.ids.get(index+1)+ " "+ sp.toString() + "\n";
+                            logRead.append("Forwarded message to "+ fm.ids.get(index+1));
+                        }
+
+                    }else if(type==SerialPayload.TYPE_NODEDATA){
+
+                    }else if(type==SerialPayload.TYPE_NODEDATA_REQ){
+
+                    }
                 }
                 break;
             case "J":
