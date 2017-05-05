@@ -24,7 +24,7 @@ public class NetworkManager {
         return true;
     }
 
-    public List<NodeData> getShortestPath(NodeData src, NodeData dest) {
+    public static List<NodeData> getShortestPath(NodeData src, NodeData dest) {
         if(src.equals(dest)) {
             List<NodeData> returnList = new ArrayList<NodeData>();
             returnList.add(src);
@@ -37,7 +37,7 @@ public class NetworkManager {
         return shortestPathHelp(src, dest, path, seen);
     }
 
-    public List<NodeData> shortestPathHelp(NodeData src,
+    public static List<NodeData> shortestPathHelp(NodeData src,
                                            NodeData dest, List<NodeData> path,
                                            List<NodeData> seen) {
         List<List<NodeData>> foundPaths = new ArrayList<List<NodeData>>();

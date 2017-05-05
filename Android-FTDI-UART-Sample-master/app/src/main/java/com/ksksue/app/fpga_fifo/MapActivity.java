@@ -14,17 +14,27 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.ksksue.app.ftdi_uart.MainActivity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MapActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
     private Location selfLocation;
+    private List<Location> locList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
 
+        locList = new ArrayList<Location>();
         Intent intent = getIntent();
+        for(String key : intent.getExtras().keySet()) {
+            Location currLoc = intent.getParcelableExtra(key);
+            locList.add(currLoc);
+        }
+
         selfLocation = (Location) intent.getParcelableExtra(
                 MainActivity.SELF_LOCATION_KEY);
 
@@ -52,13 +62,21 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
 
         }
 
-///        LatLng bakerHall = new LatLng(40.441997, -79.945389);
+        for(Location currLoc : locList) {
+            LatLng currLatLng =
+                    new LatLng(currLoc.getLatitude(), currLoc.getLongitude());
+            mMap.addMarker(new MarkerOptions()
+                .position(currLatLng)
+                .title("" + Math.random())
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+        }
+
         LatLng selfLatLng = new LatLng(selfLocation.getLatitude(),
                         selfLocation.getLongitude());
-        mMap.addMarker(new MarkerOptions()
-                .position(selfLatLng)
-                .title("Myself")
-                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+//        mMap.addMarker(new MarkerOptions()
+//                .position(selfLatLng)
+//                .title("Myself")
+//                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(selfLatLng));
         mMap.moveCamera(CameraUpdateFactory.zoomTo((float) 15.0));
 

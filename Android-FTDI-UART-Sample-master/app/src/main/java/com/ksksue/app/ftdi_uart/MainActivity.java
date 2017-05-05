@@ -669,6 +669,16 @@ public class MainActivity extends Activity implements
     public void openMapCallback(View view) {
         Intent intent = new Intent(this, MapActivity.class);
         intent.putExtra(SELF_LOCATION_KEY, getLocation());
+        Location l0 = new Location("me");
+        l0.setLongitude(-79.945930);
+        l0.setLatitude(40.443820);
+
+        Location l1 = new Location("u");
+        l1.setLongitude(-79.945844);
+        l1.setLatitude(40.444375);
+
+        intent.putExtra("me", l0);
+        intent.putExtra("u", l1);
 
         startActivity(intent);
     }
